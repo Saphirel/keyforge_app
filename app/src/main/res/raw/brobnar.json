@@ -1,0 +1,137 @@
+{
+ "name": "Brobnar",
+ "artifacts": [],
+ "upgrades": [],
+ "creatures": [
+  {
+   "name": "Alaka",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "If you have used a creature to fight this turn, Alaka enters play ready."
+    }
+   ]
+  },
+  {
+   "name": "Brammo",
+   "type": "CREATURE",
+   "traits": ["GIANT", "KNIGHT"],
+   "power": 4,
+   "armor": 1,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 2 damages to each enemy flank creature."
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "name": "1-2 Punch",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Stun an enemy creature. If that creature was already stunned, destroy it instead."
+    }
+   ]
+  },
+  {
+   "name": "Anger",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": [
+      "PLAY"
+     ],
+     "text": "Ready and fight with a friendly creature."
+    }
+   ]
+  },
+  {
+   "name": "Alaka's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Ballcano",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 4 damages to each creature. Gain 2 chains."
+    }
+   ]
+  },
+  {
+   "name": "Barn Razing",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, your opponent loses 1 aember each time a friendly creature fights."
+    }
+   ]
+  },
+  {
+   "name": "Brothers in Battle",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Choose a house. For the remainder of the turn, each friendly creature of that house may fight."
+    }
+   ]
+  },
+  {
+   "name": "Berserker Slam",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 4 damages to a flank creature. If this damage destroys that creature, its controller loses 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Burn the Stockpile",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA", "AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  }
+ ]
+}
