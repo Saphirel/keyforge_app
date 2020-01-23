@@ -7,6 +7,7 @@
    "name": "Alaka",
    "type": "CREATURE",
    "traits": ["GIANT"],
+   "special": [],
    "power": 4,
    "armor": 0,
    "aember": 0,
@@ -22,6 +23,7 @@
    "name": "Brammo",
    "type": "CREATURE",
    "traits": ["GIANT", "KNIGHT"],
+   "special": [],
    "power": 4,
    "armor": 1,
    "aember": 0,
@@ -32,6 +34,985 @@
      "text": "Deal 2 damages to each enemy flank creature."
     }
    ]
+  },
+  {
+   "name": "Bingle Bangbang",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": [],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["BEFORE_FIGHT"],
+     "text": "Deal 5 damages to each neighbor of the creature Bingle Bangbang fights."
+    }
+   ]
+  },
+  {
+   "name": "Cowfyne",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["BEFORE_FIGHT"],
+     "text": "Deal 2 damages to each neighbor of the creature Cowfyne fights."
+    }
+   ]
+  },
+  {
+   "name": "Drummernaut",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY", "FIGHT", "REAP"],
+     "text": "Return a friendly GIANT creature to your hand."
+    }
+   ]
+  },
+  {
+   "name": "Ganger Chieftain",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "You may ready and fight with a neighboring creature."
+    }
+   ]
+  },
+  {
+   "name": "Foozle",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "If an enemy creature has been destroyed this turn, gain 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Groke",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Your opponent loses 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Gron Nine-Toes",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Gron Nine-Toes gets +4 power while it is damaged. (Gron Nine-Toes gets the power bonus only if he survives the damage.)."
+    }
+   ]
+  },
+  {
+   "name": "Groggins",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 8,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "When Groggins is used to fight, it can only attack flank creatures."
+    }
+   ]
+  },
+  {
+   "name": "Mogghunter",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Deal 2 damages to a flank creature."
+    }
+   ]
+  },
+  {
+   "name": "Narp",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 8,
+   "armor": 1,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Narp's neighbors cannot reap."
+    }
+   ]
+  },
+  {
+   "name": "Shorty",
+   "type": "CREATURE",
+   "traits": [
+    "GIANT"
+   ],
+   "special": [
+    "ASSAULT_4"
+   ],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": [
+    "WC"
+   ],
+   "effects": [
+    {
+     "appliesWhen": [
+      "REAP"
+     ],
+     "text": "Enrage Shorty."
+    }
+   ]
+  },
+  {
+   "name": "Lollop the Titanic",
+   "type": "CREATURE",
+   "traits": ["GIANT", "LOCATION"],
+   "special": [],
+   "power": 11,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Lollop the Titanic deals no damage when attacked."
+    }
+   ]
+  },
+  {
+   "name": "Stilt-Kin",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": ["SKIRMISH"],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After a Giant creature is played adjacent to Stilt-Kin, ready and fight with Stilt-Kin."
+    }
+   ]
+  },
+  {
+   "name": "Culf the Quiet",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": ["ELUSIVE"],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA"],
+   "effects": []
+  },
+  {
+   "name": "Flamewake Shaman",
+   "type": "CREATURE",
+   "traits": ["HUMAN"],
+   "special": [],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 2 damages to a creature."
+    }
+   ]
+  },
+  {
+   "name": "Gravelguts",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After an enemy creature is destroyed fighting Gravelguts, give Gravelguts two +1 counters."
+    }
+   ]
+  },
+  {
+   "name": "Gargantes Scrapper",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": ["ALPHA"],
+   "power": 3,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "If you have 3 aembers or more, deal 3 damages to an enemy creature."
+    }
+   ]
+  },
+  {
+   "name": "Little Rapscal",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": ["ELUSIVE"],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Creatures must fight when used, if able."
+    }
+   ]
+  },
+  {
+   "name": "Ogopogo",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After Ogopogo attacks and destroys a creature, you may deal 2 damages to a creature."
+    }
+   ]
+  },
+  {
+   "name": "Valdr",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Valdr deals +2 damages while attacking an enemy creature on the flank."
+    }
+   ]
+  },
+  {
+   "name": "Sköll",
+   "type": "CREATURE",
+   "traits": ["BEAST"],
+   "special": ["ASSAULT_3"],
+   "power": 3,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After an enemy creature is destroyed by Sköll's assault damages, give a friendly creature a +1 power counter."
+    }
+   ]
+  },
+  {
+   "name": "Bumpsy",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Your opponent loses 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Slimy Jark",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": ["SKIRMISH", "ELUSIVE"],
+   "power": 1,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Enrage the creature Slimy Jark fights."
+    }
+   ]
+  },
+  {
+   "name": "Earthshaker",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Destroy each creature with power 3 or lower."
+    }
+   ]
+  },
+  {
+   "name": "Firespitter",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 1,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["BEFORE_FIGHT"],
+     "text": "Deal 1 damage to each enemy creature."
+    }
+   ]
+  },
+  {
+   "name": "Bellowing Patrizate",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "While Bellowing Patrizate is ready, each creature takes 1 damage after it enters play."
+    }
+   ]
+  },
+  {
+   "name": "Grenade Snib",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": [],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["DESTROYED"],
+     "text": "Your opponent loses 2 aembers."
+    }
+   ]
+  },
+  {
+   "name": "Bilgum Avalanche",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After you forge a key, deal 2 damages to each enemy creature."
+    }
+   ]
+  },
+  {
+   "name": "Headhunter",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Gain 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Forgemaster Og",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After a player forges a key, they lose all of their remaining aember."
+    }
+   ]
+  },
+  {
+   "name": "Hebe the Huge",
+   "type": "CREATURE",
+   "traits": ["GIANT", "KNIGHT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 2 damages to each other undamaged creature."
+    }
+   ]
+  },
+  {
+   "name": "Kelifi Dragon",
+   "type": "CREATURE",
+   "traits": ["DRAGON"],
+   "special": [],
+   "power": 12,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Kelifi Dragon cannot be played until you have 7 aembers or more."
+    },
+    {
+     "appliesWhen": ["FIGHT", "REAP"],
+     "text": "Gain 1 aember. Deal 5 damages to a creature"
+    }
+   ]
+  },
+  {
+   "name": "Guji Dinosaur Hunter",
+   "type": "CREATURE",
+   "traits": ["GIANT", "HUNTER"],
+   "special": ["ELUSIVE"],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ACTION"],
+     "text": "Deal 2 damages to a creature. Deal 6 damages instead if it is a Dinosaur creature or has aember on it."
+    }
+   ]
+  },
+  {
+   "name": "Grumpus Tamer",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "Search your deck and discard pile for a War Grumpus, reveal it, and add it to your hand. Then, shuffle your deck."
+    }
+   ]
+  },
+  {
+   "name": "Igon the Green",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 4,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["DESTROYED"],
+     "text": "Purge Igon the Green. Return an Igon the Terrible from your discard pile to your hand."
+    }
+   ]
+  },
+  {
+   "name": "Krump",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After an enemy creature is destroyed fighting Krump, its controller loses 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Lomir Flamefist",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "If your opponent has 7 aembers or more, they lose 2 aembers."
+    }
+   ]
+  },
+  {
+   "name": "Kaloch Stonefather",
+   "type": "CREATURE",
+   "traits": ["GIANT", "LEADER"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "While Kaloch Stonefather is in the center of your battleline, each friendly creature gains skirmish."
+    }
+   ]
+  },
+  {
+   "name": "Looter Goblin",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": ["ELUSIVE"],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "For the remainder of the turn, gain 1 aember each time an enemy creature is destroyed."
+    }
+   ]
+  },
+  {
+   "name": "King of the Crag",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Each enemy Brobnar creature gets -2 power."
+    }
+   ]
+  },
+  {
+   "name": "Mugwump",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "After an enemy creature is destroyed fighting Mugwump, fully heal Mugwump and give it a +1 power counter."
+    }
+   ]
+  },
+  {
+   "name": "Pingle Who Annoys",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": ["ELUSIVE"],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Deal 1 damage to each enemy creature after it enters play."
+    }
+   ]
+  },
+  {
+   "name": "Nogi Smartfist",
+   "type": "CREATURE",
+   "traits": ["GIANT", "SCIENTIST"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Draw 2 cards. Discard 2 random cards from you hand."
+    }
+   ]
+  },
+  {
+   "name": "Rock-Hurling Giant",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "During your turn, each time you discard a Brobnar card from your hand, you may deal 4 damages to a creature."
+    }
+   ]
+  },
+  {
+   "name": "Old Boomy",
+   "type": "CREATURE",
+   "traits": ["GOBLIN", "SCIENTIST"],
+   "special": [],
+   "power": 2,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "Reveal cards from the top of your deck until you reveal a Brobnar card or choose to stop. Deal 2 damages to Old Boomy if a Brobnar card was revealed. Archive each card revealed this way."
+    }
+   ]
+  },
+  {
+   "name": "Rogue Ogre",
+   "type": "CREATURE",
+   "traits": ["GIANT", "MUTANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "At the end of the turn, if you played exactly one card this turn, Rogue Ogre heals 2 damages and captures 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Smaaash",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 5,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Stun a creature."
+    }
+   ]
+  },
+  {
+   "name": "Tireless Crocag",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Tireless Crocag cannot reap."
+    },
+    {
+     "appliesWhen": ["ANY"],
+     "text": "You may use Tireless Crocag as if it belonged to the active house."
+    },
+    {
+     "appliesWhen": ["ANY"],
+     "text": "If your opponent has no creature in play, destroy Tireless Crocag."
+    }
+   ]
+  },
+  {
+   "name": "Troll",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 8,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "Troll heals 3 damages."
+    }
+   ]
+  },
+  {
+   "name": "Wardrummer",
+   "type": "CREATURE",
+   "traits": ["GOBLIN"],
+   "special": [],
+   "power": 3,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["COTA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Return each other friendly Brobnar creature to your hand."
+    }
+   ]
+  },
+  {
+   "name": "War Grumpus",
+   "type": "CREATURE",
+   "traits": ["BEAST"],
+   "special": [],
+   "power": 3,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT", "REAP"],
+     "text": "Ready and fight with a neighboring Giant."
+    }
+   ]
+  },
+  {
+   "name": "Igon the Terrible",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 8,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "If Igon the Green has not been purged, destroy Igon the Terrible."
+    },
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Steal 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Mega Alaka",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "If you have used a creature to fight this turn, Mega Alaka enters play ready."
+    }
+   ]
+  },
+  {
+   "name": "Mega Cowfyne",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["BEFORE_FIGHT"],
+     "text": "Deal 2 damages to each neighbor of the creature Mega Cowfyne fights."
+    }
+   ]
+  },
+  {
+   "name": "Mega Ganger Chieftain",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "You may ready and fight with a neighboring creature."
+    }
+   ]
+  },
+  {
+   "name": "Mega Groke",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Your opponent loses 1 aember."
+    }
+   ]
+  },
+  {
+   "name": "Mega Gron Nine-Toes",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 7,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Mega Gron Nine-Toes gets +4 power while it is damaged. (Mega Gron Nine-Toes gets the power bonus only if he survives the damage."
+    }
+   ]
+  },
+  {
+   "name": "Mega Mogghunter",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 8,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["FIGHT"],
+     "text": "Deal 2 damages to a flank creature."
+    }
+   ]
+  },
+  {
+   "name": "Mega Narp",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": [],
+   "power": 10,
+   "armor": 1,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["ANY"],
+     "text": "Mega Narp's neighbors cannot reap."
+    }
+   ]
+  },
+  {
+   "name": "Mega Shorty",
+   "type": "CREATURE",
+   "traits": ["GIANT"],
+   "special": ["ASSAULT_4"],
+   "power": 6,
+   "armor": 0,
+   "aember": 0,
+   "extension": ["WC"],
+   "effects": [
+    {
+     "appliesWhen": ["REAP"],
+     "text": "Enrage Mega Shorty."
+    }
+   ]
   }
  ],
  "actions": [
@@ -40,6 +1021,7 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["AOA"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -52,6 +1034,7 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["COTA"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": [
@@ -66,6 +1049,7 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["WC"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -78,6 +1062,7 @@
    "type": "ACTION",
    "aember": 0,
    "extension": ["WC"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -90,6 +1075,7 @@
    "type": "ACTION",
    "aember": 0,
    "extension": ["WC"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -102,6 +1088,7 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["COTA"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -114,6 +1101,7 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["WC"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -126,6 +1114,410 @@
    "type": "ACTION",
    "aember": 1,
    "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Champion's Challenge",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Destroy each enemy creature except the most powerful enemy creature. Destroy each friendly creature except the most powerful friendly creature. Ready and fight with your remaining creature."
+    }
+   ]
+  },
+  {
+   "name": "Coward's End",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Destroy each undamaged creature. Gain 3 chains."
+    }
+   ]
+  },
+  {
+   "name": "First Blood",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["AOA"],
+   "special": ["ALPHA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 2 damages for each friendly Brobnar creature. You may divide this damage among any number of creatures."
+    }
+   ]
+  },
+  {
+   "name": "Follow the Leader",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, each friendly creature may fight."
+    }
+   ]
+  },
+  {
+   "name": "Lava Ball",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 4 damages to a creature with 2 damages splash."
+    }
+   ]
+  },
+  {
+   "name": "Loot the Bodies",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, gain 1 aember each time an enemy creature is destroyed."
+    }
+   ]
+  },
+  {
+   "name": "Punch",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 3 damages to a creature."
+    }
+   ]
+  },
+  {
+   "name": "Into the Fray",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, a friendly Brobnar creature gains 'FIGHT: Ready this creature.'"
+    }
+   ]
+  },
+  {
+   "name": "Smith",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA", "AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Gain 2 aembers if you control more creatures than your opponent."
+    }
+   ]
+  },
+  {
+   "name": "Pound",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Deal 2 damages to a creature, with 1 damage splash."
+    }
+   ]
+  },
+  {
+   "name": "Tremor",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Stun a creature and each of its neighbors."
+    }
+   ]
+  },
+  {
+   "name": "Warriors' Refrain",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Stun each creature with power 3 or lower."
+    }
+   ]
+  },
+  {
+   "name": "Blood Money",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Place 2 aembers from the common supply on an enemy creature."
+    }
+   ]
+  },
+  {
+   "name": "Unguarded Camp",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For each creature you have in excess of your opponent, a friendly creature captures 1 aember. Each creature cannot capture more than 1 aember this way."
+    }
+   ]
+  },
+  {
+   "name": "Warsong",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, gain 1 aember each time a friendly creature fights."
+    }
+   ]
+  },
+  {
+   "name": "Overrun",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "If 3 or more enemy creatures have been destroyed this turn, your opponent loses 2 aembers."
+    }
+   ]
+  },
+  {
+   "name": "Power of Fire",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Sacrifice a friendly creature. If you do, each player loses aember equal to half that creature's power (rounding the loss). Gain 1 chain."
+    }
+   ]
+  },
+  {
+   "name": "Relentless Assault",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Ready and fight with up to 3 different friendly creatures, one at a time."
+    }
+   ]
+  },
+  {
+   "name": "Sounds the Horns",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Discard cards from the top of your deck until you either discard a Brobnar creature or run out of cards. If you discarded a Brobnar creature this way, put it into your hand."
+    }
+   ]
+  },
+  {
+   "name": "The Flex",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Choose a ready friendly Brobnar creature. Exhaust it and gain aember equal to half its power (rounding down the gain)."
+    }
+   ]
+  },
+  {
+   "name": "Barehanded",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA", "AOA", "WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Put each artifact on top of its owner deck."
+    }
+   ]
+  },
+  {
+   "name": "Might Makes Right",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "You may sacrifice any number of creatures with total power of 25 or more. If you do, forge a key at no cost."
+    }
+   ]
+  },
+  {
+   "name": "Ragnarok",
+   "type": "ACTION",
+   "aember": 0,
+   "extension": ["WC"],
+   "special": ["ALPHA"],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "For the remainder of the turn, creatures cannot reap and you gain 1 aember whenever a friendly creature fights. At the end of the turn, destroy each creature."
+    }
+   ]
+  },
+  {
+   "name": "Take that, Smartypants",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["COTA", "AOA"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Steal 2 aembers if your opponent has 3 or more Logos cards in play."
+    }
+   ]
+  },
+  {
+   "name": "Chieftain's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Cowfyne's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Groke's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Gron's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Mogghunter's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Narp's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
+   "effects": [
+    {
+     "appliesWhen": ["PLAY"],
+     "text": "Give a creature two +1 power counters."
+    }
+   ]
+  },
+  {
+   "name": "Shorty's Brew",
+   "type": "ACTION",
+   "aember": 1,
+   "extension": ["WC"],
+   "special": [],
    "effects": [
     {
      "appliesWhen": ["PLAY"],
@@ -133,5 +1525,8 @@
     }
    ]
   }
+ ],
+ "artefacts": [
+
  ]
 }

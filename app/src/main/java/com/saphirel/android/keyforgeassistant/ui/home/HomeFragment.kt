@@ -5,10 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -25,26 +22,36 @@ import java.io.BufferedReader
 
 class HomeFragment : Fragment() {
 
+    private lateinit var actionsViewManager: RecyclerView.LayoutManager
     private lateinit var homeViewModel: HomeViewModel
     private lateinit var db: Database
     private var house: House? = null
-    private lateinit var viewAdapter: RecyclerView.Adapter<*>
-    private lateinit var viewManager: RecyclerView.LayoutManager
+    private lateinit var creaturesAdapter: RecyclerView.Adapter<*>
+    private lateinit var actionsAdapter: RecyclerView.Adapter<*>
+    private lateinit var artefactsAdapter: RecyclerView.Adapter<*>
+    private lateinit var upgradesAdapter: RecyclerView.Adapter<*>
+    private lateinit var creaturesViewManager: RecyclerView.LayoutManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         initDb()
 
-        viewManager = LinearLayoutManager(context)
-        viewAdapter = CardAdapter(house!!.creatures, context!!)
+        creaturesViewManager = LinearLayoutManager(context)
+        actionsViewManager = LinearLayoutManager(context)
+        creaturesAdapter = CreaturesAdapter(house!!.creatures, context!!)
+        actionsAdapter = ActionsAdapter(house!!.actions, context!!)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        my_recycler_view.apply {
-            setHasFixedSize(true)
-            layoutManager = viewManager
-            adapter = viewAdapter
+        creatures_rv.apply {
+            //setHasFixedSize(true)
+            layoutManager = creaturesViewManager
+            adapter = creaturesAdapter
+        }
+        action_rv.apply {
+            layoutManager = actionsViewManager
+            adapter = actionsAdapter
         }
     }
 

@@ -1,4 +1,4 @@
 package com.saphirel.android.keyforgeassistant.objects
 
-class Effect(var appliesWhen: List<Triggers>, var text: String) {
+class Effect(var appliesWhen: List<SpecialEffects>, var text: String) {
 }
