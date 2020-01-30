@@ -1,0 +1,1735 @@
+{
+  "name": "Dis",
+  "artifacts": [
+    {
+      "name": "Lash of Broken Dreams",
+      "type": "ARTIFACT",
+      "traits": ["WEAPON"],
+      "aember": 0,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Keys cost +3 aembers during your opponent's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Annihilation Ritual",
+      "type": "ARTIFACT",
+      "traits": ["POWER"],
+      "aember": 1,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "When a creature would enter a discard pile from play, it is purged instead."
+        }
+      ]
+    },
+    {
+      "name": "Dominator Bauble",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Use a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Lifeward",
+      "type": "ARTIFACT",
+      "traits": ["POWER"],
+      "aember": 1,
+      "extension": ["COTA","AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["OMNI"],
+          "text": "Sacrifice Lifeward. Your opponent cannot play creatures on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Sacrificial Altar",
+      "type": "ARTIFACT",
+      "traits": ["LOCATION"],
+      "aember": 1,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Purge a friendly Human creature from play. If you do, play a creature from your discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Screaming Cave",
+      "type": "ARTIFACT",
+      "traits": ["LOCATION"],
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Shuffle your hand and discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Library of the Damned",
+      "type": "ARTIFACT",
+      "traits": ["LOCATION"],
+      "aember": 0,
+      "extension": ["COTA","AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["OMNI"],
+          "text": "Sacrifice Key to Dis. Destroy each creature."
+        }
+      ]
+    },
+    {
+      "name": "Obsidian Forge",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 1,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Sacrifice any number of friendly creatures. Then, you may forge a key at +6 aembers current cost, reduced by 1 aember for each creature sacrificed this way. If you do, destroy Obsidian Forge."
+        }
+      ]
+    },
+    {
+      "name": "Orb of Invidius",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 1,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After a creature reaps, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Soul Fiddle",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Enrage a creature."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Pain",
+      "type": "ARTIFACT",
+      "traits": ["SHARD","ITEM"],
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Deal 1 damage to an enemy creature for each friendly Shard."
+        }
+      ]
+    },
+    {
+      "name": "Snag's Mirror",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 1,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After a player chooses an active house, their opponent cannot choose the same house as their active house on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Soul Snatcher",
+      "type": "ARTIFACT",
+      "traits": ["VEHICLE"],
+      "aember": 0,
+      "extension": ["COTA","AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Each time a creature is destroyed, it's owner gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Wretched Doll",
+      "type": "ARTIFACT",
+      "traits": ["ITEM"],
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "If there is a doom counter in play, destroy all creatures with doom counters. Otherwise, put a doom counter on a creature."
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "Collar of Subordination",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": ["COTA","AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "You control this creature."
+        }
+      ]
+    },
+    {
+      "name": "Soulkeeper",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "This creature gains, 'Destroyed: Destroy the most powerful enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Flame-Wreathed",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "This creature gets +2 power and gains hazardous 2. (Before this creature is attacked, deal 2 damages to the attacking enemy.)"
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Aember Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After a creature reaps, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Charette",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Capture 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Gub",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "While Gub is not on a flank, it gets +5 power and gains taunt."
+        }
+      ]
+    },
+    {
+      "name": "Streke",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "While Streke is not on a flank, your opponent refills their hand to 1 less card during their 'draw cards' step."
+        }
+      ]
+    },
+    {
+      "name": "Tezmal",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Choose a house. Your opponent cannot choose that house as their active house on their turn."
+        }
+      ]
+    },
+    {
+      "name": "Yurk",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose and discard a card from your hand."
+        }
+      ]
+    },
+    {
+      "name": "Angwish",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "For each damage on Angwish, your opponent's keys cost +1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Buzzle",
+      "type": "CREATURE",
+      "traits": ["BEAST"],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY", "FIGHT"],
+          "text": "You may purge one of Buzzle's neighbors. If you do, ready Buzzle."
+        }
+      ]
+    },
+    {
+      "name": "Bronze Key Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Players cannot forge their first key."
+        }
+      ]
+    },
+    {
+      "name": "Dendrix",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT"],
+          "text": "Your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Gold Key Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Players cannot forge their third key."
+        }
+      ]
+    },
+    {
+      "name": "Etaromme",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Destroy a creature of the house with the most creatures in play."
+        }
+      ]
+    },
+    {
+      "name": "Harbinger of Doom",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 2,
+      "armor": 3,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["DESTROYED"],
+          "text": "Destroy each creature."
+        }
+      ]
+    },
+    {
+      "name": "Impspector",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["DESTROYED"],
+          "text": "Purge a random card from your opponent's hand."
+        }
+      ]
+    },
+    {
+      "name": "Old Yurk",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose and discard 2 cards from your hand."
+        }
+      ]
+    },
+    {
+      "name": "Infurnace",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Purge up to 2 cards from a discard pile. Your opponent loses aember equal to the total Aember bonus of the purged cards."
+        }
+      ]
+    },
+    {
+      "name": "Lilithal",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT", "REAP"],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Malison",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT"],
+          "text": "You may move an enemy creature anywhere in its controller's battleline. Then, if it is on a flank, it captures 1 aember from its own side."
+        }
+      ]
+    },
+    {
+      "name": "Silver Key Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Players cannot forge their second key."
+        }
+      ]
+    },
+    {
+      "name": "Drumble",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "If your opponent has 7 aembers or more, capture all of it."
+        }
+      ]
+    },
+    {
+      "name": "Rotgrub",
+      "type": "CREATURE",
+      "traits": ["BEAST"],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Your opponent loses 1 aember."
+        },
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Archive Rotgrub."
+        }
+      ]
+    },
+    {
+      "name": "Spyyyder",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": ["SKIRMISH"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Spyyyder gains poison while attacking an enemy flank creature."
+        }
+      ]
+    },
+    {
+      "name": "Bloodshard Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After a creature reaps, its controller must sacrifice it."
+        }
+      ]
+    },
+    {
+      "name": "Ember Imp",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Your opponent cannot play more than 2 cards each turn."
+        }
+      ]
+    },
+    {
+      "name": "Tentacus",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Your opponent must pay you 1 aember in order to use an artifact."
+        }
+      ]
+    },
+    {
+      "name": "Borr Nit",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Reveal the top 5 cards of a player's deck. Purge a card revealed this way. Shuffle the other revealed cards into that deck."
+        }
+      ]
+    },
+    {
+      "name": "Gabos Longarms",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["BEFORE_FIGHT"],
+          "text": "Choose a creature. Gabos Longarms deals damage to that creature rather than the one it is fighting."
+        }
+      ]
+    },
+    {
+      "name": "Overlord Greking",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA","AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After an enemy is destroyed fighting Overlord Greking, put that creature into play under your control."
+        }
+      ]
+    },
+    {
+      "name": "Ancient Yurk",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose and discard 3 cards from your hand."
+        }
+      ]
+    },
+    {
+      "name": "E'e on the Fringes",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "During your turn, after you discard a Dis card from your hand, you may purge a Dis card from a discard pile. If you do, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Guardian Demon",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY", "FIGHT", "REAP"],
+          "text": "Heal up to 2 damages from a creature. Deal that amount of damage to another creature."
+        }
+      ]
+    },
+    {
+      "name": "Master of 1",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "You may destroy a creature with 1 power."
+        }
+      ]
+    },
+    {
+      "name": "Master of 2",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "You may destroy a creature with 2 power."
+        }
+      ]
+    },
+    {
+      "name": "Eater of the Dead",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA","AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT", "REAP"],
+          "text": "Purge a creature from a discard pile. If you do, put a +1 power counter on Eater of the Dead."
+        }
+      ]
+    },
+    {
+      "name": "Master of 3",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "You may destroy a creature with 3 power."
+        }
+      ]
+    },
+    {
+      "name": "Pit Demon",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Onyx Knight",
+      "type": "CREATURE",
+      "traits": ["DEMON", "KNIGHT"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy each creature with odd power."
+        }
+      ]
+    },
+    {
+      "name": "Shaffles",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "At the end of your turn, your opponent loses 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Skullion",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 7,
+      "armor": 2,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Sacrifice a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Shoolder",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA","AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "If your opponent has 4 aembers or more, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Snag",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT"],
+          "text": "Your opponent must choose the house of the creature Snag fights as their active house on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Snudge",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["FIGHT", "REAP"],
+          "text": "Return an artifact or flank creature to its owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Stealer of Sould",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After an enemy creature is destroyed fighting Stealer of Souls, purge that creature and gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Succubus",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "During their 'draw cards' step, your opponent refills their hand to 1 less card."
+        }
+      ]
+    },
+    {
+      "name": "Pitlord",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": ["TAUNT"],
+      "power": 9,
+      "armor": 0,
+      "aember": 2,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "While Pitlord is in play you must choose Dis as your active house."
+        }
+      ]
+    },
+    {
+      "name": "The Terror",
+      "type": "CREATURE",
+      "traits": ["DEMON", "KNIGHT"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "If your opponent has no aember, gain 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Restringuntus",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a chouse. Your opponent cannot choose that house as their active house until Restringuntus leaves play."
+        }
+      ]
+    },
+    {
+      "name": "Tocsin",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Truebaru",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": ["TAUNT"],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "You must lose 3 aembers in order to play Truebaru."
+        },
+        {
+          "appliesWhen": ["DESTROYED"],
+          "text": "Gain 5 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Greater Oxtet",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": ["TAUNT"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "At the end of your 'ready cards' step, purge a card from your hand. If you do, give Greater Oxtet two +1 power counters."
+        }
+      ]
+    },
+    {
+      "name": "Tolas",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["COTA", "AOA"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Each time a creature is destroyed, its opponent gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Lesser Oxtet",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Purge each card in your hand."
+        },
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Keys cost +3 aembers during your opponent's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Lord Invidius",
+      "type": "CREATURE",
+      "traits": ["DEMON", "LEADER"],
+      "special": ["ELUSIVE"],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "While Lord Invidius is in the center of your battleline, it gains, 'Reap: Take controle of an enemy flank creature and exhaust it. While under your control, it belongs to house Dis."
+        }
+      ]
+    },
+    {
+      "name": "Neffru",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Each time a creature is destroyed, its owner gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Noname",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "Noname gets +1 power for each purged card."
+        },
+        {
+          "appliesWhen": ["PLAY", "FIGHT", "REAP"],
+          "text": "Purge a card in a discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Ortannu the Chained",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "effects": [
+        {
+          "appliesWhen": ["REAP"],
+          "text": "Return each copy of Ortannu's Binding from your discard pile to your hand. For each one returned this way, deal 2 damages to a creature, with 2 damages splash."
+        }
+      ]
+    },
+    {
+      "name": "Sinestra",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After your opponent plays a creature on their flank, they lose 1."
+        }
+      ]
+    },
+    {
+      "name": "Snaglet",
+      "type": "CREATURE",
+      "traits": ["IMP"],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ACTION"],
+          "text": "Choose a house. If your opponent chooses that house as their active house on their next turn, steal 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Dexus",
+      "type": "CREATURE",
+      "traits": ["DEMON"],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": ["WC"],
+      "effects": [
+        {
+          "appliesWhen": ["ANY"],
+          "text": "After your opponent plays a creature on their right flank, they lose 1 aember."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Arise!",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a house. Return each creature of that house from your discard pile to your hand. Gain 1 chain."
+        }
+      ]
+    },
+    {
+      "name": "Banish",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Put an enemy creature into your opponent's archives."
+        }
+      ]
+    },
+    {
+      "name": "Control the Weak",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a house on your opponent's identity card. Your opponent must choose that house as their active house on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Creeping Oblivion",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA","AOA","WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Purge up to 2 cards from a discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Cull the Weak",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy the least powerful enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Dance of Doom",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a number. Destroy each creature with power equal to that number."
+        }
+      ]
+    },
+    {
+      "name": "Fear",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Return an enemy creature to its owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Exhume",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA","WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a creature in your discard pile. You may play that creature as if it belonged to the active house and was in your hand."
+        }
+      ]
+    },
+    {
+      "name": "Gateway to Dis",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy each creature. Gain 3 chains."
+        }
+      ]
+    },
+    {
+      "name": "Gongoozle",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Deal 3 damages to a creature. If it is not destroyed, its owner discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Guilty Hearts",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy each creature with any aember on it."
+        }
+      ]
+    },
+    {
+      "name": "Hand of Dis",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a creature that is not on a flank."
+        }
+      ]
+    },
+    {
+      "name": "Misery Exploit",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["AOA","WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Gain 1 aember for each damaged enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Hecatomb",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy each Dis creature. Each player gains 1 aember for each creature they controlled that was destroyed this way."
+        }
+      ]
+    },
+    {
+      "name": "Tendrils of Pain",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Deal 1 damage to each creature. Deal an additional 3 damages to each creature if your opponent forged a key on their previous turn."
+        }
+      ]
+    },
+    {
+      "name": "Key Hammer",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "If your opponent forged a key on their previous turn, unforge it. Your opponent gains 6 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Mind Barb",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Unlocked Gateway",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA"],
+      "special": ["OMEGA"],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy each creature."
+        }
+      ]
+    },
+    {
+      "name": "Binding Irons",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Your opponent gains 3 chains."
+        }
+      ]
+    },
+    {
+      "name": "Draining Touch",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a creature with no aember on it."
+        }
+      ]
+    },
+    {
+      "name": "Hysteria",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA", "AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Return each creature to its owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Festering Touch",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose up to 2 creatures. Deal 1 damage to each chosen creature. If that creature was already damaged, deal 3 damages instead."
+        }
+      ]
+    },
+    {
+      "name": "Pain Reaction",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Deal 2 damages to an enemy creature. If this damage destroys that creature, deal 2 damages to each of that creature's neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Pandemonium",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Each undamaged creature captures 1 aember from its opponent."
+        }
+      ]
+    },
+    {
+      "name": "Poltergeist",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Use an artifact controlled by any player as if it were yours. Destroy that artifact."
+        }
+      ]
+    },
+    {
+      "name": "Not Finished with You",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Shuffle any number of creatures from your discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "The Evil Eye",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Keys cost +3 aembers during your opponent's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Three Fates",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy the 3 most powerful creatures."
+        }
+      ]
+    },
+    {
+      "name": "A Fair Game",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["COTA", "AOA", "WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Discard the top card of your opponent's deck and reveal their hand. You gain 1 aember for each card of the discarded card's house revealed this way. Your opponent repeats the preceding effect on you."
+        }
+      ]
+    },
+    {
+      "name": "Bor Nit's Touch",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Revel the top 5 cards of a player's deck. Purge a card revealed this way. Shuffle the other revealed cards into that deck."
+        }
+      ]
+    },
+    {
+      "name": "Giants' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Giant creature."
+        }
+      ]
+    },
+    {
+      "name": "Gleeful Mayhem",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "For each house, deal 5 damages to a creature of that house."
+        }
+      ]
+    },
+    {
+      "name": "Red-Hot Armor",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["COTA", "AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Each enemy creature with armor loses all of its armor until the end of the turn and is dealt 1 damage for each point of armor it lost this way."
+        }
+      ]
+    },
+    {
+      "name": "Shadow of Dis",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Until your next turn, enemy creatures’ text boxes are considered blank (except for traits)."
+        }
+      ]
+    },
+    {
+      "name": "Harvest Time",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Choose a trait. Purge each card with that trait. Each player gains 1 aember for each card they controlled that was purged this way."
+        }
+      ]
+    },
+    {
+      "name": "Ortannu's Binding",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["AOA","WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Deal 2 damages to a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Beasts' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Beast creature."
+        }
+      ]
+    },
+    {
+      "name": "Demons' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Demon creature."
+        }
+      ]
+    },
+    {
+      "name": "Dinosaurs' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Giant creature."
+        }
+      ]
+    },
+    {
+      "name": "Humans' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Human creature."
+        }
+      ]
+    },
+    {
+      "name": "Scientists' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Scientist creature."
+        }
+      ]
+    },
+    {
+      "name": "Thieves' Bane",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": ["WC"],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": ["PLAY"],
+          "text": "Destroy a Thief creature."
+        }
+      ]
+    }
+  ]
+}

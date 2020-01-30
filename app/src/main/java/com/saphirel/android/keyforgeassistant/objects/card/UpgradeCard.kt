@@ -2,7 +2,6 @@ package com.saphirel.android.keyforgeassistant.objects.card
 
 import com.saphirel.android.keyforgeassistant.objects.Effect
 import com.saphirel.android.keyforgeassistant.objects.Extensions
-import com.saphirel.android.keyforgeassistant.objects.Traits
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)

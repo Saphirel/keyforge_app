@@ -4,5 +4,5 @@ enum class Types {
     CREATURE,
     UPGRADE,
     ACTION,
-    ARTEFACT
+    ARTIFACT
 }

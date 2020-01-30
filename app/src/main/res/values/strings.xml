@@ -7,10 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_brobnar">Brobnar</string>
+    <string name="menu_dis">Dis</string>
+    <string name="menu_untamed">Indomptés</string>
+    <string name="menu_staralliance">Novalliance</string>
+    <string name="menu_saurian">Saurus</string>
+    <string name="menu_shadow">Ombres</string>
+    <string name="menu_mars">Mars</string>
+    <string name="menu_sanctum">Sanctum</string>
+    <string name="menu_logos">Logos</string>
+    <string name="card_list_menu_title">Liste des cartes</string>
 </resources>

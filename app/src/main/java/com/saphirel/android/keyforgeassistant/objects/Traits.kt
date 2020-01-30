@@ -14,5 +14,12 @@ enum class Traits {
     DRAGON,
     HUNTER,
     LEADER,
-    MUTANT
+    MUTANT,
+    WEAPON,
+    ITEM,
+    VEHICLE,
+    SHARD,
+    POWER,
+    DEMON,
+    IMP
 }

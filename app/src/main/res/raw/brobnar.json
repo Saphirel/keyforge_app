@@ -1,7 +1,311 @@
 {
  "name": "Brobnar",
- "artifacts": [],
- "upgrades": [],
+ "artifacts": [
+   {
+     "name": "Irestaff",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Enrage a creature. Give that creature a +1 power counter."
+       }
+     ]
+   },
+   {
+     "name": "Flamethrower",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 0,
+     "extension": ["AOA", "WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Deal 1 damage to a creature, with 1 damage splash."
+       }
+     ]
+   },
+   {
+     "name": "Autocannon",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 1,
+     "extension": ["COTA"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Deal 1 damage to each creature after it enters play."
+       }
+     ]
+   },
+   {
+     "name": "Banner of Battle",
+     "type": "ARTIFACT",
+     "traits": ["ITEM"],
+     "aember": 0,
+     "extension": ["COTA"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "Each friendly creature gets +1 power."
+       }
+     ]
+   },
+   {
+     "name": "Cannon",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 0,
+     "extension": ["COTA"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Deal 2 damages to a creature."
+       }
+     ]
+   },
+   {
+     "name": "Gauntlet of Command",
+     "type": "ARTIFACT",
+     "traits": ["ITEM"],
+     "aember": 0,
+     "extension": ["COTA", "AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Ready and fight with a friendly creature."
+       }
+     ]
+   },
+   {
+     "name": "Iron Obelisk",
+     "type": "ARTIFACT",
+     "traits": ["LOCATION"],
+     "aember": 0,
+     "extension": ["COTA", "AOA", "WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "Your opponent's keys cost +1 aember for each friendly damaged Brobnar creature."
+       }
+     ]
+   },
+   {
+     "name": "Grump Buggy",
+     "type": "ARTIFACT",
+     "traits": ["VEHICLE"],
+     "aember": 1,
+     "extension": ["AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "Your opponent's keys cost +1 aember for each friendly creature with power 5 or higher. Your keys cost +1 aember for each enemy creature with power 5 or higher."
+       }
+     ]
+   },
+   {
+     "name": "Mighty Javelin",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 1,
+     "extension": ["COTA"],
+     "effects": [
+       {
+         "appliesWhen": ["OMNI"],
+         "text": "Sacrifice Mighty Javelin. Deal 4 damages to a creature."
+       }
+     ]
+   },
+   {
+     "name": "Ragwarg",
+     "type": "ARTIFACT",
+     "traits": ["ITEM"],
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "After a creature reaps, if it is the first time a creature has reaped this turn, deal 2 damages to it."
+       }
+     ]
+   },
+   {
+     "name": "Screechbomb",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 0,
+     "extension": ["COTA", "AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["OMNI"],
+         "text": "Sacrifice screechbomb. Your opponent loses 2 aembers."
+       }
+     ]
+   },
+   {
+     "name": "Shattered Throne",
+     "type": "ARTIFACT",
+     "traits": ["LOCATION"],
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "After a creature is used to fight, it captures 1 aember."
+       }
+     ]
+   },
+   {
+     "name": "The Warchest",
+     "type": "ARTIFACT",
+     "traits": ["ITEM"],
+     "aember": 0,
+     "extension": ["COTA", "AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Gain 1 aember for each enemy creature that was destroyed in a fight this turn."
+       }
+     ]
+   },
+   {
+     "name": "Pile of Skulls",
+     "type": "ARTIFACT",
+     "traits": ["LOCATION"],
+     "aember": 0,
+     "extension": ["COTA","AOA","WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "Each time an enemy creature is destroyed during your turn, a friendly creature captures 1 aember."
+       }
+     ]
+   },
+   {
+     "name": "Shard of Strength",
+     "type": "ARTIFACT",
+     "traits": ["ITEM", "SHARD"],
+     "aember": 0,
+     "extension": ["AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["ACTION"],
+         "text": "Give a friendly creature a +1 power counter for each friendly Shard."
+       }
+     ]
+   },
+   {
+     "name": "Signal Fire",
+     "type": "ARTIFACT",
+     "traits": ["ITEM"],
+     "aember": 1,
+     "extension": ["AOA","WC"],
+     "effects": [
+       {
+         "appliesWhen": ["OMNI"],
+         "text": "Sacrifice Signal Fire. For the remainder of the turn, friendly Brobnar creatures may fight as though they belonged to the active house."
+       }
+     ]
+   },
+   {
+     "name": "The Big One",
+     "type": "ARTIFACT",
+     "traits": ["WEAPON"],
+     "aember": 0,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "After a creature is played, put a fuse counter on The Big One. If there are 10 or more fuse counters on The Big One, destroy each creature and artifact."
+       }
+     ]
+   },
+   {
+     "name": "The Floor is Lava",
+     "type": "ARTIFACT",
+     "traits": ["LOCATION"],
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "At the start of your turn, deal 1 damage to a friendly creature and 1 damage to an enemy creature."
+       }
+     ]
+   }
+ ],
+ "upgrades": [
+   {
+     "name": "Blood of Titans",
+     "type": "UPGRADE",
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "This creature gets +5 power."
+       }
+     ]
+   },
+   {
+     "name": "Fyre-Breath",
+     "type": "UPGRADE",
+     "aember": 1,
+     "extension": ["WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "This creature gets +3 power and gains, 'BEFORE FIGHT: Deal 2 damages to each neighbor of the creature this creature fights."
+       }
+     ]
+   },
+   {
+     "name": "Cybergiant Rig",
+     "type": "UPGRADE",
+     "aember": 1,
+     "extension": ["COTA","AOA","WC"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "This creature gains, 'At the end of your turn, this creature loses +1 power counter."
+       },
+       {
+         "appliesWhen": ["PLAY"],
+         "text": "Fully heal this creature and give it a +1 power counter for each damage healed."
+       }
+     ]
+   },
+   {
+     "name": "Phoenix Heart",
+     "type": "UPGRADE",
+     "aember": 0,
+     "extension": ["COTA","AOA"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "This creature gains, 'DESTROYED: Return this creature to its owner's hand and deal 3 damages to each creature in play."
+       }
+     ]
+   },
+   {
+     "name": "Yo Mama Mastery",
+     "type": "UPGRADE",
+     "aember": 1,
+     "extension": ["COTA"],
+     "effects": [
+       {
+         "appliesWhen": ["ANY"],
+         "text": "This creature gains taunt."
+       },
+       {
+         "appliesWhen": ["PLAY"],
+         "text": "Fully heal ths creature."
+       }
+     ]
+   }
+ ],
  "creatures": [
   {
    "name": "Alaka",
@@ -1525,8 +1829,5 @@
     }
    ]
   }
- ],
- "artefacts": [
-
  ]
 }

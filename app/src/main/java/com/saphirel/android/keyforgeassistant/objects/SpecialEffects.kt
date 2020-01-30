@@ -7,6 +7,7 @@ enum class SpecialEffects {
     FIGHT,
     REAP,
     ACTION,
+    OMNI,
     DESTROYED,
     BEFORE_FIGHT,
     ANY,
@@ -17,5 +18,6 @@ enum class SpecialEffects {
     ASSAULT_4,
 
     ELUSIVE,
-    SKIRMISH
+    SKIRMISH,
+    TAUNT
 }
