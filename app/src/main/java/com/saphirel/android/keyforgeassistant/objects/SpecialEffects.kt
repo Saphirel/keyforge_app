@@ -17,7 +17,14 @@ enum class SpecialEffects {
     ASSAULT_3,
     ASSAULT_4,
 
+    HAZARDOUS_1,
+    HAZARDOUS_3,
+    HAZARDOUS_5,
+    HAZARDOUS_6,
+
     ELUSIVE,
     SKIRMISH,
-    TAUNT
+    TAUNT,
+    DEPLOY,
+    POISON
 }

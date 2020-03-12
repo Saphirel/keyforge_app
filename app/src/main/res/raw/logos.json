@@ -1,0 +1,2257 @@
+{
+  "name": "logos",
+  "artifacts": [
+    {
+      "name": "Library of Babble",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Mobius Scroll",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Archive Mobius Scroll and up to 2 cards from your hand."
+        }
+      ]
+    },
+    {
+      "name": "Memory Chip",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you choose Logos as your active house, archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Spangler Box",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Purge a creature in play. If you do, your opponent gains control of Spangler Box. If Spangler Box leaves play, return to play all cards purged by Spangler Box."
+        }
+      ]
+    },
+    {
+      "name": "Quantum Fingertap",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Swap the positions of two creatures in a battleline."
+        }
+      ]
+    },
+    {
+      "name": "Spectral Tunneler",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Choose a creature. For the remainder of the turn, that creature is considered a flank creature and gains, \"Reap: Draw a card.\""
+        }
+      ]
+    },
+    {
+      "name": "Strange Gizmo",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you forge a key, destroy each creature and artifact."
+        }
+      ]
+    },
+    {
+      "name": "Hologrammophone",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Ward a creature."
+        }
+      ]
+    },
+    {
+      "name": "The Howling Pit",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "During their \"draw cards\" step, each player refills their hand to 1 additional card."
+        }
+      ]
+    },
+    {
+      "name": "Seismo-entangler",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Choose a house. During your opponent's next turn, creatures of the chosen house cannot be used to reap."
+        }
+      ]
+    },
+    {
+      "name": "[REDACTED]",
+      "type": "ARTIFACT",
+      "traits": [
+        "REDACTED"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you choose Logos as your active house, place 1 aember from the common supply on [REDACTED]. When there are 4 or more aembers on [REDACTED], sacrifice it and forge a key at no cost."
+        }
+      ]
+    },
+    {
+      "name": "Chaos Portal",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Choose a house. Reveal the top card of your deck. If it is of that house, play it."
+        }
+      ]
+    },
+    {
+      "name": "Crazy Killing Machine",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Discard the top card of each player's deck. For each of those cards, destroy a creature or artifact of that card's house, if able. If 2 cards are not destroyed as a result of this, destroy Crazy Killing Machine."
+        }
+      ]
+    },
+    {
+      "name": "Fetchdrones",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Discard the top 2 cards of your deck. For each Logos card discarded this way, a friendly creature captures 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Anomaly Exploiter",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Destroy a damaged creature."
+        }
+      ]
+    },
+    {
+      "name": "Pocket Universe",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You may spend aember on Pocket Univers when forging keys."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Move 1 aember from your pool to Pocket Universe."
+        }
+      ]
+    },
+    {
+      "name": "Scientifical Hack",
+      "type": "ARTIFACT",
+      "traits": [
+        "EQUATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Scientifical Hack. For the remainder of the turn, you may use friendly artifacts as if they belonged to the active house."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Knowledge",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM", "SHARD"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Draw a card for each friendly Shard."
+        }
+      ]
+    },
+    {
+      "name": "Universal Keylock",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Keys cost +3 aembers."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player forges a key, destroy Universal Keylock."
+        }
+      ]
+    },
+    {
+      "name": "Universal Recycle Bin",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Archive a purged card you own."
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Archimedes",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "BEAST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each of Archimedes's neighbors gains, \"Destroyed: Archive this creature.\""
+        }
+      ]
+    },
+    {
+      "name": "Helper Bot",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You may play one non-Logos card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Hexpion",
+      "type": "CREATURE",
+      "traits": [
+        "AI"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Archive Hexpion and the top card of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Pip Pip",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature reaps, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Professor Sutterkin",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Draw a card for each friendly Logos creature."
+        }
+      ]
+    },
+    {
+      "name": "Titan Librarian",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the end of your turn, if Titan Librarian is not on a flank, archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Z.Y.X Researcher",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive the top card of your deck or the top card of your discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Director of Z.Y.X",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the start of your turn, archive the top card of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Babbling Bibliophile",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Fila the Researcher",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a creature is played adjacent to Fila the Researcher, draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Daughter",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "During your \"Draw cards\" step, refill your hand to 1 additional card."
+        }
+      ]
+    },
+    {
+      "name": "EDAI \"Edie\" 4x4",
+      "type": "CREATURE",
+      "traits": [
+        "AI", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive a card."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your opponent's keys cost +1 aember for each card in your archive."
+        }
+      ]
+    },
+    {
+      "name": "Eyegor",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Look at the top 3 cards of your deck. Add 1 to your hand and discard the others."
+        }
+      ]
+    },
+    {
+      "name": "Hapsis",
+      "type": "CREATURE",
+      "traits": [
+        "MUTANT", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature is destroyed fighting Hapsis, ward Hapsis and draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Batdrone",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Brain Eater",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "BEAST"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a creature is destroyed fighting Brain Eater, draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Quant",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may play one non-Logos action card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Dextre",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 1 aember."
+        },
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Put Dextre on top of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Sanitation Engineer",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": ["HAZARDOUS_1"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Discard a card from your hand."
+        }
+      ]
+    },
+    {
+      "name": "Doc Bookton",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Escotera",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 1 aember for each forged key your opponent has."
+        }
+      ]
+    },
+    {
+      "name": "Titan Guardian",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "CYBORG"
+      ],
+      "special": ["TAUNT"],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "If Titan Guardian is not on a flank, draw 2 cards."
+        }
+      ]
+    },
+    {
+      "name": "Dysania",
+      "type": "CREATURE",
+      "traits": [
+        "MUTANT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent discards each of their archived cards. You gain 1 aember for each card discarded this way."
+        }
+      ]
+    },
+    {
+      "name": "Ganymede Archivist",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Quixo the \"Adventurer\"",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Wormhole Technician",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Reveal the top card of your deck. If it is a Logos card, play it. Otherwise, archive it."
+        }
+      ]
+    },
+    {
+      "name": "Harland Mindlock",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Take control of an enemy flank creature until Harland Mindlock leaves play."
+        }
+      ]
+    },
+    {
+      "name": "Mother",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "During your \"draw cards\" step, refill your hand to 1 additional card."
+        }
+      ]
+    },
+    {
+      "name": "C.AE.N.D.L.E. Unit",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature reaps, draw a card."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Code Monkey",
+      "type": "CREATURE",
+      "traits": [
+        "AI", "BEAST"
+      ],
+      "special": ["DEPLOY"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive each neighboring creature. If those creatures share a house, gains 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Novu Archaeologist",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Archive a card from your discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Neutron Shark",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "MUTANT"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "Destroy an enemy creature or atifact and a friendly creature or artifact. Discard the top card of your deck. If that is not a Logos card, trigger this effect again."
+        }
+      ]
+    },
+    {
+      "name": "Psychic Bug",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "INSECT"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "REAP"
+          ],
+          "text": "Look at your opponent's hand."
+        }
+      ]
+    },
+    {
+      "name": "Dr.Milli",
+      "type": "CREATURE",
+      "traits": [
+        "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each creature your opponent controls in excess of you, not counting Dr. Milli, archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Ozmo, Martianologist",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Heal 3 damage from a Mars creature or stun a Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Groupthink Tank",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT", "EXPERIMENT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 3,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Deal 4 damages to each creature that shares a house with at least 1 of its neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Research Smoko",
+      "type": "CREATURE",
+      "traits": [
+        "MUTANT"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Archive the top card of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Project Z.Y.X",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "MUTANT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play one of your archived card as if it were in your hand and in the active house."
+        }
+      ]
+    },
+    {
+      "name": "Skippy Timehog",
+      "type": "CREATURE",
+      "traits": [
+        "MUTANT"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent cannot use any cards next turn. (Cards can still be played and discarded.)"
+        }
+      ]
+    },
+    {
+      "name": "Jargogle",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "MUTANT"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Put a card from your hand facedown under Jargogle."
+        },
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "If it is your turn, play the card under Jargogle, otherwise, archive that card."
+        }
+      ]
+    },
+    {
+      "name": "Replicator",
+      "type": "CREATURE",
+      "traits": [
+        "MUTANT"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Trigger the reap effect of another creature in play as if you controlled that creature. (That creature does not exhaust.)"
+        }
+      ]
+    },
+    {
+      "name": "Timetraveller",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Draw 2 cards."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Shuffle Timetraveller into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Titan Mechanic",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While Titan Mechanic is on a flank, each key costs -1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Mini Groupthink Tank",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT", "EXPERIMENT"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "Deal 8 damages to a creature that shares a house with 2 of its neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Vespilon Theorist",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Choose a house. Reveal the top card of your deck. If it is of that house, archive it and gain 1 aember. Otherwise, discard it."
+        }
+      ]
+    },
+    {
+      "name": "Veylan Analyst",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each time you use an artifact, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "The Curator",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Friendly artifacts enter play ready."
+        }
+      ]
+    },
+    {
+      "name": "Reassembling Automaton",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT", "EXPERIMENT"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "If you have any other creatures in play, instead of destroying Reassembling Automaton, fully heal it, exhaust it, and move it to a flank."
+        }
+      ]
+    },
+    {
+      "name": "Hyde",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Draw a card. if you control Velum, draw 2 cards instead."
+        },
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Archive Velum from your discard pile. If you do, archive Hyde."
+        }
+      ]
+    },
+    {
+      "name": "Mimic Gel",
+      "type": "CREATURE",
+      "traits": [
+        "SHAPESHIFTER", "MUTANT"
+      ],
+      "special": [],
+      "power": 0,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Mimic Gel cannot be played unless there is another creature in play."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Mimic Gel enters play as a copy of another creature in play, except it belongs to house Logos."
+        }
+      ]
+    },
+    {
+      "name": "Prescriptive Grammarbot",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": ["TAUNT", "HAZARDOUS_3"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Enrage a creature."
+        }
+      ]
+    },
+    {
+      "name": "Self-Bolstering Automata",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "If you have any other creatures in play, instead of destroying Self-Bolstering Automata, fully heal it, exhaust it, and move it to a flank. If you do, give it two +1 power counters."
+        }
+      ]
+    },
+    {
+      "name": "Zenzizenzizenzic",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "LEADER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "During your \"draw cards\" step, if Zenzizenzizenzic is in the center of your battleline, refill your hand to 2 additional cards."
+        }
+      ]
+    },
+    {
+      "name": "Velum",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Archive a card. If you control Hyde, archive 2 cards instead."
+        },
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Archive Hyde from your discard pile. If you do, archive Velum."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bouncing Deathquark",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy an enemy creature and a friendly creature. You may repeat this effect as many times as you like, as long as it is possible to repeat the entier effect."
+        }
+      ]
+    },
+    {
+      "name": "Dimension Door",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, any aember you would gain from reaping is stolen from your opponent instead."
+        }
+      ]
+    },
+    {
+      "name": "Binate Rupture",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each player gains aember equal to the aember in their pool."
+        }
+      ]
+    },
+    {
+      "name": "Effervescent Principle",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each player loses half their aember (rounding down the loss). Gain 1 chain."
+        }
+      ]
+    },
+    {
+      "name": "Cutthroat Research",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 2 aembers if your opponent has 8 aembers or more."
+        }
+      ]
+    },
+    {
+      "name": "Foggify",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent cannot use creatures to fight on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Interdimensional Graft",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If an opponent forges a key on their next turn, they must give you their remaining aember."
+        }
+      ]
+    },
+    {
+      "name": "Labwork",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Library Access",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, each time you play another card, draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Neuro Syphon",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has more aember than you, steal 1 aember and draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Phase Shift",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You may play one non-Logos card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Poke",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to an enemy creature. If this damage destroys that creature, draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Random Access Archives",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive the top card of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Standardized Testing",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each creature with the lowest power and each creature with the hightest power."
+        }
+      ]
+    },
+    {
+      "name": "Reverse Time",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Swap your deck and your discard pile. Then, shuffle your deck."
+        }
+      ]
+    },
+    {
+      "name": "Scrambler Storm",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent cannot play action cards on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Sloppy Labwork",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive a card. Discard a card."
+        }
+      ]
+    },
+    {
+      "name": "Eureka!",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 2 aembers. Archive 2 random cards from your hand."
+        }
+      ]
+    },
+    {
+      "name": "Information Exchange",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember. If your opponent stole aember from you on thein previous turn, steal 2 aembers instead."
+        }
+      ]
+    },
+    {
+      "name": "Tautau Vapors",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Draw 2 cards. Archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Thorium Plasmate",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Move an enemy creature anywhere in its controller's battleline. Deal 2 damages to that creature for each of its neighbors that shares a house with it."
+        }
+      ]
+    },
+    {
+      "name": "Twin Bolt Emission",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to a creature and deal 2 damages to a different creature."
+        }
+      ]
+    },
+    {
+      "name": "Wild Wormhole",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Play the top card of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Help from Future Self",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Search your deck and discard pile for a Timetraveller, reveal it, and put it into your hand. Shuffle your discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Data Forge",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You may forge a key at +10 aembers current cost, reduced by 1 aember for each card in your hand."
+        }
+      ]
+    },
+    {
+      "name": "Positron Bolt",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 3 damages to a flank creature. Deal 2 damages to its neighbors. Deal 1 damage to the second creature's other neighbor."
+        }
+      ]
+    },
+    {
+      "name": "Remote Access",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Use an opponent's artifact as if it were yours."
+        }
+      ]
+    },
+    {
+      "name": "Entropic Swirl",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. For each trait that creature has, deal it 2 damages and gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Knowledge is Power",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose one: Archive a card, or, for each archived card you have, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Master the Theory",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If there are no friendly creatures in play, you may archive a card for each enemy creature."
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "Backup Copy",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Destroyed: put this creature on top of your deck.\""
+        }
+      ]
+    },
+    {
+      "name": "Rocket Boots",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains \"Fight/Reap: If this is the first time this creature was used this turn, ready it.\""
+        }
+      ]
+    },
+    {
+      "name": "Discombobulator",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains \"Your aember cannot be stolen.\""
+        }
+      ]
+    },
+    {
+      "name": "Experimental Therapy",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature belongs to all houses."
+        },
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Stun and exhaust this creature."
+        }
+      ]
+    },
+    {
+      "name": "Transposition Sandals",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Action: Swap this creature with another friendly creature in the battleline. You may use that other creature this turn.\""
+        }
+      ]
+    },
+    {
+      "name": "Academy Training",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "If you control this creature, it belongs to house Logos (Instead of its original house.)"
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Reap: Draw a card.\""
+        }
+      ]
+    }
+  ]
+}

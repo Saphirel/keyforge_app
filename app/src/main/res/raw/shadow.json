@@ -1,0 +1,85 @@
+{
+  "name": "shadow",
+  "artifacts": [
+    {
+      "name": "",
+      "type": "ARTIFACT",
+      "traits": [
+        ""
+      ],
+      "aember": 0,
+      "extension": [
+        ""
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            ""
+          ],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "",
+      "type": "CREATURE",
+      "traits": [
+        ""
+      ],
+      "special": [],
+      "power": 0,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        ""
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            ""
+          ],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        ""
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            ""
+          ],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        ""
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            ""
+          ],
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

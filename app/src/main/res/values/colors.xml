@@ -3,4 +3,31 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="brobnarTitleCard">#FFF9C4</color>
+    <color name="brobnarToolbar">#BF360C</color>
+
+    <color name="disTitleCard">#F8BBD0</color>
+    <color name="disToolbar">#212121</color>
+
+    <color name="logosTitleCard">#EEEEEE</color>
+    <color name="logosToolbar">#01579B</color>
+
+    <color name="marsTitleCard">#512DA8</color>
+    <color name="marsToolbar">#311B92</color>
+
+    <color name="sanctumTitleCard">#1E88E5</color>
+    <color name="sanctumToolbar">#0D47A1</color>
+
+    <color name="saurianTitleCard">#0097A7</color>
+    <color name="saurianToolbar">#006064</color>
+
+    <color name="shadowTitleCard">#795548</color>
+    <color name="shadowToolbar">#3E2723</color>
+
+    <color name="starallianceTitleCard">#3949AB</color>
+    <color name="starallianceToolbar">#1A237E</color>
+
+    <color name="untamedTitleCard">#FFE0B2</color>
+    <color name="untamedToolbar">#1B5E20</color>
 </resources>

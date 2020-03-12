@@ -8,12 +8,16 @@ import com.saphirel.android.keyforgeassistant.objects.card.CreatureCard
 import com.saphirel.android.keyforgeassistant.ui.adapters.CreaturesAdapter
 import kotlinx.android.synthetic.main.fragment_creatures.*
 
-class CreaturesFragment(val cards: List<CreatureCard>): CardFragment(R.layout.fragment_creatures) {
+class CreaturesFragment(
+    val cards: List<CreatureCard>,
+    val houseName: String
+): CardFragment(R.layout.fragment_creatures) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         cardAdapter = CreaturesAdapter(
             cards,
+            houseName,
             context!!
         ) as RecyclerView.Adapter<RecyclerView.ViewHolder>
     }

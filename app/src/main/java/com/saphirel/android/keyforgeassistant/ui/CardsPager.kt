@@ -11,7 +11,7 @@ import com.saphirel.android.keyforgeassistant.ui.listing.cards.UpgradesFragment
 
 class CardsPager internal constructor(fm: FragmentManager, house: House) : FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    private val mFragmentList = arrayListOf<Fragment>(CreaturesFragment(house.creatures), ActionsFragment(house.actions), ArtifactsFragment(house.artifacts), UpgradesFragment(house.upgrades))
+    private val mFragmentList = arrayListOf<Fragment>(CreaturesFragment(house.creatures, house.name), ActionsFragment(house.actions), ArtifactsFragment(house.artifacts), UpgradesFragment(house.upgrades))
     private val mFragmentTitleList = arrayListOf("Creatures", "Actions", "Artefacts", "Upgrades")
 
     override fun getItem(position: Int): Fragment {

@@ -1,0 +1,1592 @@
+{
+  "name": "mars",
+  "artifacts": [
+    {
+      "name": "Aember Conduction Unit",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature reaps, if it is the first time a creature has reaped this turn, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Combat Pheromones",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Combat Pheromones. You may use up to 2 other Mars cards this turn."
+        }
+      ]
+    },
+    {
+      "name": "Commpod",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Reveal any number of Mars cards from your hand. For each card revealed this way, you may ready one Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Crystal Hive",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "For the remainder of the turn, gain 1 aember each time a creature reaps."
+        }
+      ]
+    },
+    {
+      "name": "Feeding Pit",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Discard a creature from your hand. If you do, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Incubation Chamber",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Reveal a MArs creature from your hand. If you do, archive it."
+        }
+      ]
+    },
+    {
+      "name": "Mothergun",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Reveal any number of Mars cards from your hand. Deal damage to a creature equals to the number of Mars cards revealed this way."
+        }
+      ]
+    },
+    {
+      "name": "Swap Widget",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Return a ready friendly Mars creature to your hand. If you do, put a Mars creature with a different name from your hand into play, then ready it."
+        }
+      ]
+    },
+    {
+      "name": "Custom Virus",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Custom Virus. Purge a creature from your hand. Destroy each creature that shares a trait with the purged creature."
+        }
+      ]
+    },
+    {
+      "name": "Invasion Portal",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Discard cards from the top of your deck until you discard a Mars creature or run out of cards. If you discard a Mars creature this way, put it into your hand."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Hate",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM", "SHARD"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Stun an enemy creature for each friendly Shard."
+        }
+      ]
+    },
+    {
+      "name": "Sniffer",
+      "type": "ARTIFACT",
+      "traits": [
+        "ALLY"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "For the remainder of the turn, each creature loses elusive."
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Agent Hoo-man",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "AGENT"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Choose a friendly non-Mars creature and an enemy non-Mars creature. Stun the chose creatures."
+        }
+      ]
+    },
+    {
+      "name": "Collector Worm",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 5,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Archive the creature Collector Worm fights. If that creature leaves your archives, put it in its owner's hand instead."
+        }
+      ]
+    },
+    {
+      "name": "Glyxl Proliferator",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "If Glyxl Proliferator is on a flank, archive a Mars card from your discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Ixxyxli Fixfinger",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each other Martian creature gets +1 armor."
+        }
+      ]
+    },
+    {
+      "name": "Mindwarper",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Choose an enemy creature. It captures 1 aember from its own side."
+        }
+      ]
+    },
+    {
+      "name": "Mindworm",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "BEFORE_FIGHT"
+          ],
+          "text": "The creature Mindworm fights deals damage equal to its power to each of its neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Skybooster Squadron",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Return Skybooster Squadron to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Tyxl Beambuckler",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to a creature and move it to either flank of its controller's battleline."
+        }
+      ]
+    },
+    {
+      "name": "Vezyma Thinkdrone",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may archive a friendly creature or artifact from play."
+        }
+      ]
+    },
+    {
+      "name": "Xanthyx Harvester",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Xanthyx Harvester cannot be used while it has a non-Mars neighbor."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Zysysyx Shockworm",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature reaps, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Nyzyk Resonator",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "For each neighbor Nyzyk Resonator has, your opponent's keys cost +2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Storm Crawler",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Storm Crawler only deals 1 damage when fighting."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature reaps, stun it."
+        }
+      ]
+    },
+    {
+      "name": "Blypyp",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "The next Mars creature you play this turn enters play ready."
+        }
+      ]
+    },
+    {
+      "name": "Chuff Ape",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["TAUNT"],
+      "power": 11,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may sacrifice another friendly creature. If you do, fully heal Chuff Ape."
+        }
+      ]
+    },
+    {
+      "name": "Ether Spider",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Ether Spider deals no damage when fighting."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each aember that would be added to your opponent's pool is captured by Ether Spider instead."
+        }
+      ]
+    },
+    {
+      "name": "Grabber Jammer",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your opponent's keys cost +1 aember."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "\"John Smyth\"",
+      "type": "CREATURE",
+      "traits": [
+        "AGENT", "MARTIAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Ready a non-Agent Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Grommid",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 10,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You cannot play creatures."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature is destroyed fighting Grommid, your opponent loses 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Phylyx the Disintegrator",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Your opponent loses 1 aember for each other friendly Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Tunk",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you play another Mars creature, fully heal Tunk."
+        }
+      ]
+    },
+    {
+      "name": "Ulyq Megamouth",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Use a friendly non-Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Uxlyx the Zookeeper",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Put an enemy creature into your archives. If that creature leaves your archives, it is put into its owner's hand instead."
+        }
+      ]
+    },
+    {
+      "name": "Yxili Marauder",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Yxili Marauder gets +1 power for each aember on it."
+        },
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 1 aember for each friendly ready Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Qyxxlyx Plague Master",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Deal 3 damages to each Human creature. This damage cannot be prevented by armor."
+        }
+      ]
+    },
+    {
+      "name": "Yxilo Bolter",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Deal 2 damages to a creature. If this damage destroys that creature, purge it."
+        }
+      ]
+    },
+    {
+      "name": "Yxilx Dominator",
+      "type": "CREATURE",
+      "traits": [
+        "ROBOT"
+      ],
+      "special": ["TAUNT"],
+      "power": 9,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Yxilx enters play stunned."
+        }
+      ]
+    },
+    {
+      "name": "Zorg",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Zorg enters play stunned."
+        },
+        {
+          "appliesWhen": [
+            "BEFORE_FIGHT"
+          ],
+          "text": "Stun the creature Zorg fights and each of that creature's neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Zyzzix the Many",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may reveal a creature from your hand. If you do, archive it and Zyzzix the Many gets three +1 power counters."
+        }
+      ]
+    },
+    {
+      "name": "Yxlyx Stimrager",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SOLDIER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Deal 2 damages to a creature and move it to either flank of its controller's battleline."
+        }
+      ]
+    },
+    {
+      "name": "Yzphyz Knowdrone",
+      "type": "CREATURE",
+      "traits": [
+        "MARTIAN", "SCIENTIST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive a card. You may purge an archived card to stun a creature."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ammonia Clouds",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 3 damages to each creature."
+        }
+      ]
+    },
+    {
+      "name": "Battle Fleet",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Reveal any number of Mars cards from your hand. For each card revealed this way, draw 1 card."
+        }
+      ]
+    },
+    {
+      "name": "Carpet Phloxem",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If there are no friendly creatures in play, deal 4 damages to each creature."
+        }
+      ]
+    },
+    {
+      "name": "Deep Probe",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a house. Reveal your opponent's hand. Discard each creature of that house revealed this way."
+        }
+      ]
+    },
+    {
+      "name": "EMP Blast",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each Mars creature and each Robot creature is stunned. Each artifact is destroyed."
+        }
+      ]
+    },
+    {
+      "name": "Irradiated Aember",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has 6 aember or more, deal 3 damages to each enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Mars First",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready and use a friendly Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Mars Needs Aember",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each damaged enemy non-Mars creature captures 1 aember from their own side."
+        }
+      ]
+    },
+    {
+      "name": "Martian Hounds",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. For each damaged creature, give the chosen creature two +1 power counters."
+        }
+      ]
+    },
+    {
+      "name": "Martians Make Bad Allies",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Reveal your hand. Purge each revealed non-Mars creature and gain 1 aember for each card purged this way."
+        }
+      ]
+    },
+    {
+      "name": "Mass Abduction",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Put up to 3 damaged enemy creatures into your archives. If any of these creatures leave your archives, they are put into their owner's hand instead."
+        }
+      ]
+    },
+    {
+      "name": "Mating Season",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Shuffle each Mars creature into its owner's deck. Each player gains 1 aember for each creature shuffled into their deck this way."
+        }
+      ]
+    },
+    {
+      "name": "Mothership Support",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each friendly ready Mars creature, deal 2 damages to a creature. (You may choose a different creature each time.)"
+        }
+      ]
+    },
+    {
+      "name": "Orbital Bombardment",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Reveal any number of Mars cards from your hand. For each card revealed this way, deal 2 damages to a creature. (You may choose a different creature each time.)"
+        }
+      ]
+    },
+    {
+      "name": "Phosphorus Stars",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Stun each non-Mars creature. Gain 2 chains."
+        }
+      ]
+    },
+    {
+      "name": "Psychic Network",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember for each friendly ready Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Shatter Storm",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Lose all your aember. Then, your opponent loses triple the amount of aember you lost this way."
+        }
+      ]
+    },
+    {
+      "name": "Soft Landing",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "The next creature or artifact you play this turn enters play ready."
+        }
+      ]
+    },
+    {
+      "name": "Squawker",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready a Mars creature or stun a non-Mars creature."
+        }
+      ]
+    },
+    {
+      "name": "Destroy Them All!",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy an artifact, a creature, and an upgrade."
+        }
+      ]
+    },
+    {
+      "name": "Exterminate! Exterminate!",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each friendly Mars creature you control, destroy a non-Mars creature with lower power."
+        }
+      ]
+    },
+    {
+      "name": "Hypnobeam",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain control of an enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Key Abduction",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return each Mars creature to it's owner's hand. Then, you may forge a key at +9 current cost, reduced by 1 aember for each card in your hand."
+        }
+      ]
+    },
+    {
+      "name": "Phloxem Strike",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If there are no friendly creatures in play, destroy each creature not on a flank."
+        }
+      ]
+    },
+    {
+      "name": "Sample Collection",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead."
+        }
+      ]
+    },
+    {
+      "name": "Destructive Analysis",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to a creature. You may purge any number of cards from your archives to deal an additional 2 damages to the same creature for each card purged this way."
+        }
+      ]
+    },
+    {
+      "name": "Entropic Manipulator",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a player. You may redistribute the damage on the creatures that player controls among that player's creatures. (You may cause more damage to a creature than it has power.)"
+        }
+      ]
+    },
+    {
+      "name": "Extinction",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. Destroy that creature and each creature that shares a trait with it. Gain 1 chain."
+        }
+      ]
+    },
+    {
+      "name": "Hypnotic Command",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each friendly Mars creature, choose an enemy creature to capture 1 aember from their own side."
+        }
+      ]
+    },
+    {
+      "name": "Martian Generosity",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Loose all your aember. Draw 2 cards for each aember lost."
+        }
+      ]
+    },
+    {
+      "name": "Total Recall",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each friendly ready creature, gain 1 aember. Return each friendly creature to your hand."
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "Containment Field",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After this creature is used, destroy it."
+        }
+      ]
+    },
+    {
+      "name": "brain Stem Antenna",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"After you play a Mars creature, ready this creature and for the remainder of the turn it belongs to house Mars.\""
+        }
+      ]
+    },
+    {
+      "name": "Killzord Mk. 9001",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gets +2 armor and +2 power."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains skirmish and, \"Fight: Gain 1 chain.\""
+        }
+      ]
+    },
+    {
+      "name": "Biomatrix Backup",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Destroyed: Put this creature into its owner's archives.\""
+        }
+      ]
+    },
+    {
+      "name": "Jammer Pack",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Your opponent's keys cost +2 aember.\""
+        }
+      ]
+    },
+    {
+      "name": "Red Planet Ray Gun",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"Reap: Choose a creature. Deal 1 damage to that creature for each Mars creature in play.\""
+        }
+      ]
+    }
+  ]
+}

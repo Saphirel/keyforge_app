@@ -8,39 +8,39 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_brobnar"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_brobnar"
             android:title="@string/menu_brobnar" />
         <item
             android:id="@+id/nav_dis"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_dis"
             android:title="@string/menu_dis" />
         <item
             android:id="@+id/nav_untamed"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_untamed"
             android:title="@string/menu_untamed" />
         <item
             android:id="@+id/nav_saurian"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_saurian"
             android:title="@string/menu_saurian" />
         <item
             android:id="@+id/nav_staralliance"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_staralliance"
             android:title="@string/menu_staralliance" />
         <item
             android:id="@+id/nav_shadow"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_shadow"
             android:title="@string/menu_shadow" />
         <item
             android:id="@+id/nav_sanctum"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_sanctum"
             android:title="@string/menu_sanctum" />
         <item
             android:id="@+id/nav_mars"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_mars"
             android:title="@string/menu_mars" />
         <item
             android:id="@+id/nav_logos"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_logos"
             android:title="@string/menu_logos" />
     </group>
 

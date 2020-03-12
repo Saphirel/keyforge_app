@@ -35,7 +35,10 @@ class ActionsAdapter(private val dataset: List<ActionCard>, private val context:
 
         when (dataset[position].aember) {
             0 -> holder.constraintLayout.aember_layout.visibility = View.GONE
-            else -> holder.constraintLayout.aember_tv.text = dataset[position].aember.toString()
+            else -> {
+                holder.constraintLayout.aember_layout.visibility = View.VISIBLE
+                holder.constraintLayout.aember_tv.text = dataset[position].aember.toString()
+            }
         }
 
         val specialEffects = Utils.formatSpecialCombatEffects(dataset[position].special)

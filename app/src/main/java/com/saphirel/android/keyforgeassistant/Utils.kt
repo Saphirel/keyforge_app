@@ -17,10 +17,16 @@ class Utils {
         fun toggleExtensionIcon(cardExtensionsLayout: LinearLayout, extensions: List<Extensions>) {
             if (extensions.contains(Extensions.COTA))
                 cardExtensionsLayout.cota_icon.visibility = View.VISIBLE
+            else
+                cardExtensionsLayout.cota_icon.visibility = View.GONE
             if (extensions.contains(Extensions.AOA))
                 cardExtensionsLayout.aoa_icon.visibility = View.VISIBLE
+            else
+                cardExtensionsLayout.aoa_icon.visibility = View.GONE
             if (extensions.contains(Extensions.WC))
                 cardExtensionsLayout.wc_icon.visibility = View.VISIBLE
+            else
+                cardExtensionsLayout.wc_icon.visibility = View.GONE
         }
 
         fun bindEffectsAdapter(effects: List<Effect>, view: RecyclerView, context: Context) {
@@ -43,10 +49,20 @@ class Utils {
                 when (s) {
                     SpecialEffects.ELUSIVE -> res += ", Elusive"
                     SpecialEffects.SKIRMISH -> res += ", Skirmish"
+                    SpecialEffects.DEPLOY -> res += ", Deploy"
+                    SpecialEffects.TAUNT -> res += ", Taunt"
+                    SpecialEffects.POISON -> res += ", Poison"
+
                     SpecialEffects.ASSAULT_1 -> res += ", Assault 1"
                     SpecialEffects.ASSAULT_2 -> res += ", Assault 2"
                     SpecialEffects.ASSAULT_3 -> res = ", Assault 3"
                     SpecialEffects.ASSAULT_4 -> res = ", Assault 4"
+
+                    SpecialEffects.HAZARDOUS_1 -> res = ", Hazardous 1"
+                    SpecialEffects.HAZARDOUS_3 -> res = ", Hazardous 3"
+                    SpecialEffects.HAZARDOUS_5 -> res = ", Hazardous 5"
+                    SpecialEffects.HAZARDOUS_6 -> res = ", Hazardous 6"
+
                     SpecialEffects.ALPHA -> res = ", Alpha"
                     SpecialEffects.OMEGA -> res = ", Omega"
                     //SpecialEffects. -> res = ""
@@ -67,6 +83,9 @@ class Utils {
                     SpecialEffects.REAP -> res += "/Reap"
                     SpecialEffects.FIGHT -> res += "/Fight"
                     SpecialEffects.PLAY -> res += "/Play"
+                    SpecialEffects.OMNI -> res += "/Omni"
+                    SpecialEffects.BEFORE_FIGHT -> res += "/Before Fighit"
+                    SpecialEffects.DESTROYED -> res += "/Destroyed"
                     SpecialEffects.ANY -> res = ""
                     else -> res += ""
                 }

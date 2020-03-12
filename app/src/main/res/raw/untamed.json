@@ -1,0 +1,2170 @@
+{
+  "name": "untamed",
+  "artifacts": [
+    {
+      "name": "Bear Flute",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Fully heal an Anciant Bear. If there are no Ancient Bears in play, search your deck and discard pile and put each Ancient Bear from them into your hand. If you do, shuffle your discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Ritual of Balance",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "If your opponent has 6 aembers or more, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Ritual of the Hunt",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Ritual of the Hunt. For the remainder of the turn, you may use friendly Untamed creatures."
+        }
+      ]
+    },
+    {
+      "name": "Nepenthe Seed",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Nepenthe Seed. Return a card from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Niffle Grounds",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Choose a creature. For the remainder of the turn, that creature loses taunt and elusive."
+        }
+      ]
+    },
+    {
+      "name": "Heart of the Forest",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each player cannot forge keys while they have more forged keys than their opponent."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Life",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM", "SHARD"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Shuffle a card from your discard pile into your deck for each friendly Shard."
+        }
+      ]
+    },
+    {
+      "name": "Fangtooth Cavern",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the end of your turn, destroy the least powerful creature."
+        }
+      ]
+    },
+    {
+      "name": "World Tree",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Return a creature from your discard pile to the top of your deck."
+        }
+      ]
+    },
+    {
+      "name": "Creed of Nature",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Creed of Nature. If you do, choose a creature. For the remainder of the turn, that creature gains skirmish and assault X. X is the power."
+        }
+      ]
+    },
+    {
+      "name": "Creed of Nurture",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Creed of Nurture. If you do, reveal a creature from your hand and choose a creature in play. For the remainder of the turn, the chosen creature gains the text box of the revealed creature."
+        }
+      ]
+    },
+    {
+      "name": "Nepeta Gigantica",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Stun a creature with power 5 or higther, or stun a Giant creature."
+        }
+      ]
+    },
+    {
+      "name": "Vineapple Tree",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Keys cost +1 aember for each growth counter on Vineapple Tree."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player forges a key, remove each growth counter from Vineapple Tree."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Put a growth counter on Vineapple Tree."
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Dharna",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "WITCH"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 1 aember for each damaged friendly creature."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Heal 2 damage from a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Duskwitch",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": ["OMEGA", "ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your creatures enter play ready."
+        }
+      ]
+    },
+    {
+      "name": "Fanghouse",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["ASSAULT_3", "HAZARDOUS_3"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Glimmer",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": ["ALPHA"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return a card from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Grovekeeper",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the end of your turn, give each neighboring creature a +1 power counter."
+        }
+      ]
+    },
+    {
+      "name": "Knoxx",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Knoxx gets +3 power counter for each neighbor it has."
+        }
+      ]
+    },
+    {
+      "name": "Marmo Swarm",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Marmo Swarm gets +1 power for each aember in your pool."
+        }
+      ]
+    },
+    {
+      "name": "Rustgnawer",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "INSECT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Destroy an artifact. If that artifact had an aember bonus, you gain that mush aember."
+        }
+      ]
+    },
+    {
+      "name": "Tantadlin",
+      "type": "CREATURE",
+      "traits": [
+        "TREE"
+      ],
+      "special": [],
+      "power": 9,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Tantadlin only deals 2 damages when fighting."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Discard a random card from your opponent's archives."
+        }
+      ]
+    },
+    {
+      "name": "Aemberspine Mongrel",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["HAZARDOUS_3"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After your opponent uses a creature to reap, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Bumblebird",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "INSECT"
+      ],
+      "special": ["ALPHA"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Put two +1 counters on each other friendly Untamed creature."
+        }
+      ]
+    },
+    {
+      "name": "Ancient Bear",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["ASSAULT_2"],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Bigtwig",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 7,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Bigtwig can only fight stunned creatures."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Stun and exhaust a creature."
+        }
+      ]
+    },
+    {
+      "name": "Panpaca, Anga",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Creatures to the right of Panpaca, Anga in the battleline get +2 power."
+        }
+      ]
+    },
+    {
+      "name": "Briar Grubbling",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "INSECT"
+      ],
+      "special": ["HAZARDOUS_5"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Chota Hazri",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Lose 1 aember. If you do, you may forge a key at current cost."
+        }
+      ]
+    },
+    {
+      "name": "Dew Faerie",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Dust Pixie",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 2,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Bramble Lynx",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "If you have used a creature to reap this turn, Bramble Lynx enters play ready."
+        }
+      ]
+    },
+    {
+      "name": "Fuzzy Gruen",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 2,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Giant Sloth",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You cannot use this card unless you have discarded an Untamed card from your hand this turn."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Gain 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Deepwood Druid",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "WITCH"
+      ],
+      "special": ["DEPLOY"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "REAP"
+          ],
+          "text": "Fully heal a neighboring creature."
+        }
+      ]
+    },
+    {
+      "name": "Halacor",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly flank creature gains skirmish."
+        }
+      ]
+    },
+    {
+      "name": "Ghosthawk",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["DEPLOY"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You may reap with each neighboring creature, one at a time."
+        }
+      ]
+    },
+    {
+      "name": "Harmonia",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you play a creature, if there are more enemy creatures than friendly creatures, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Kindrith Longshot",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "RANGER"
+      ],
+      "special": ["ELUSIVE", "SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Deal 2 damages to a creature."
+        }
+      ]
+    },
+    {
+      "name": "Lupo the Scarred",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to an enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Imprinted Murmook",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your keys cost -1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Snufflegator",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Mighty Tiger",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 4 damages to an enemy creature."
+        }
+      ]
+    },
+    {
+      "name": "Molephin",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["HAZARDOUS_3"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After aember is stolen from you, deal 1 damage to each enemy creature for each aember stolen.,"
+        }
+      ]
+    },
+    {
+      "name": "Murmook",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your opponent's keys cost +1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Musthic Murmook",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each player's keys cost +1 aember."
+        },
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 4 damages to a creature."
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Man",
+      "type": "CREATURE",
+      "traits": [
+        "FUNGUS", "HUMAN"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Mushroom Man gets +3 power for each unforged key you have."
+        }
+      ]
+    },
+    {
+      "name": "Niffle Ape",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "NIFFLE"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While Niffle Ape is attacking, ignore taunt and elusive."
+        }
+      ]
+    },
+    {
+      "name": "Niffle Queen",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "NIFFLE"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each power friendly Beast creature gets +1 power."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each other friendly Niffle creature gets +1 power."
+        }
+      ]
+    },
+    {
+      "name": "Teliga",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each time your opponent plays a creature, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Hunting Witch",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each time you play another creature, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Witch of the Eye",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Return a card from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Witch of the Wilds",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "WITCH"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "During each turn in witch Untamed is not your active house, you may play one Untamed card."
+        }
+      ]
+    },
+    {
+      "name": "Flaxia",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 2 aembers if you control more creatures than your opponent."
+        }
+      ]
+    },
+    {
+      "name": "Gebuk",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Discard the top card of your deck. If it is a creature, after Gebuk leaves play, put that creature into play in Gebuk's position in the battleline."
+        }
+      ]
+    },
+    {
+      "name": "Kangaphant",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each creature gains, \"Reap: Destroy this creature.\""
+        }
+      ]
+    },
+    {
+      "name": "Mab the Mad",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Shuffle Mab the Mad into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Panpaca, Jaga",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Creatures to the left of Panpaca, Jaga in the battleline gain skirmish."
+        }
+      ]
+    },
+    {
+      "name": "The Feathered Shaman",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Ward each of The Feathered Shaman's neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Eldest Bear",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "LEADER", "WITCH"
+      ],
+      "special": ["ASSAULT_3"],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While Eldest Bear is in the center of your battleline, it gains \"Before Fight: Gain 2 aembers.\""
+        }
+      ]
+    },
+    {
+      "name": "Giant Gnawbill",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses an active house that player destroys an artifact of that house."
+        }
+      ]
+    },
+    {
+      "name": "Inka the Spider",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["POISON"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "REAP"
+          ],
+          "text": "Stun a creature."
+        }
+      ]
+    },
+    {
+      "name": "Moor Wolf",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "WOLF"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready each other Wolf creature."
+        }
+      ]
+    },
+    {
+      "name": "Piranha Monkeys",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "REAP"
+          ],
+          "text": "Deal 2 damages to each other creature."
+        }
+      ]
+    },
+    {
+      "name": "Po's Pixies",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Aember stolen or captured from your pool is taken from the common supply instead."
+        }
+      ]
+    },
+    {
+      "name": "Roxador",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Roxador only deal 2 damages when fighting."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Stun the attacked creature."
+        }
+      ]
+    },
+    {
+      "name": "Xenos Bloodshadow",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "WITCH"
+      ],
+      "special": ["ELUSIVE", "HAZARDOUS_6", "POISON", "SKIRMISH"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Toad",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Toad cannot reap."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Cooperative Hunting",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage for each friendly creature in play. You may divide this damage among any number of creatures."
+        }
+      ]
+    },
+    {
+      "name": "Fertility Chant",
+      "type": "ACTION",
+      "aember": 4,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent gains 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Fogbank",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent cannot use creatures to fight on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Full Moon",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, gain 1 aember each time you play a creature."
+        }
+      ]
+    },
+    {
+      "name": "Key Charge",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Lose 1 aember. If you do, you may forge a key at current cost."
+        }
+      ]
+    },
+    {
+      "name": "Lifeweb",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent played 3 or more creatures on their previous turn, steal 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Lost in the Woods",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose 2 friendly creatures and 2 enemy creatures. Shuffle each chose creature into its owner's deck."
+        }
+      ]
+    },
+    {
+      "name": "Persistence Hunting",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a house. Exhaust each enemy creature of the chosen house."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Call",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return up to 3 creatures to their owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Nocturnal Maneuver",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Exhaust up to 3 creatures."
+        }
+      ]
+    },
+    {
+      "name": "Perilous Wild",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each elusive creature."
+        }
+      ]
+    },
+    {
+      "name": "Song of Spring",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Shuffle any number of friendly Untamed creatures from your hand, discard pile, or battleline back into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Save the Pack",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each damaged creature. Gain 1 chain."
+        }
+      ]
+    },
+    {
+      "name": "Scout",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, un to 2 friendly creatures gain skirmish. Then, fight with those creatures one at a time."
+        }
+      ]
+    },
+    {
+      "name": "They're everywhere !",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to each enemy flank creature. Deal 1 damage to each enemy creature not on a flank."
+        }
+      ]
+    },
+    {
+      "name": "Stampede",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If you used 3 or more creatures this turn, steal 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Troop Call",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return each friendly Niffle creature from you discard pile and from play to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Vigor",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Heal up to 3 damages from a creature. If you healed 3 damage, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Word of Returning",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to each enemy creature for each aember on it. Return all aember from those creatures to your pool."
+        }
+      ]
+    },
+    {
+      "name": "Soldiers to Flowers",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Purge each Untamed creature from each player's discard pile. For each card purged this way, its owner gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Curiosity",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each Scientist creature."
+        }
+      ]
+    },
+    {
+      "name": "Cauldron Boil",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal damage to each creature equal to the amount of damage on that creature."
+        }
+      ]
+    },
+    {
+      "name": "Regrowth",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return a creature from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Ponctuated Equilibrium",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each player discards their hand, then refills their hand as if it were the end of their turn."
+        }
+      ]
+    },
+    {
+      "name": "Quicksand",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy the most powerful creature controlled by each player who does not control a ready Untamed creature."
+        }
+      ]
+    },
+    {
+      "name": "Song of the Wild",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, each friendly creature gains, \"Reap: Gain 1 aember.\""
+        }
+      ]
+    },
+    {
+      "name": "The Fittest",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Give each friendly creature a +1 power counter."
+        }
+      ]
+    },
+    {
+      "name": "Unnatural Selection",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose 3 friendly creatures and 3 enemy creatures. Destroy each other creature."
+        }
+      ]
+    },
+    {
+      "name": "The Common Cold",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to each creature. You may destroy all Mars creatures."
+        }
+      ]
+    },
+    {
+      "name": "Unsuspecting Prey",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to up to 3 undamaged creatures."
+        }
+      ]
+    },
+    {
+      "name": "Grasping Vines",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return up to 3 artifacts to their owner's hands."
+        }
+      ]
+    },
+    {
+      "name": "Low Dawn",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If there are 3 or more Untamed creatures in your discard pile, gain 2 aembers. Shuffle each Untamed creature from your discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "When you play this card, treat it as a copy of an action card in your opponent's discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Gravid Cycle",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": ["OMEGA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return a card from your discard pile to your hand."
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "Camouflage",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Creatures not on a flank cannot fight this creature."
+        }
+      ]
+    },
+    {
+      "name": "Way of the Porcupine",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains Hazardous 3."
+        }
+      ]
+    },
+    {
+      "name": "Earthbind",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature cannot be used unless its controller has discarded a card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Way of the Bear",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains Assault 2."
+        }
+      ]
+    },
+    {
+      "name": "Way of the Wolf",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains Skirmish."
+        }
+      ]
+    },
+    {
+      "name": "Instrument of Silence",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains Skirmish and, \"Fight: Gain 1 aember.\""
+        }
+      ]
+    },
+    {
+      "name": "Wild Spirit",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains \"Reap: Capture 1 aember.\""
+        }
+      ]
+    }
+  ]
+}

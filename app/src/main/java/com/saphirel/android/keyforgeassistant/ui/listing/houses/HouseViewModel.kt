@@ -1,13 +1,13 @@
-package com.saphirel.android.keyforgeassistant.ui.listing.houses.sanctum
+package com.saphirel.android.keyforgeassistant.ui.listing.houses
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SanctumViewModel : ViewModel() {
+class HouseViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is gallery Fragment"
     }
     val text: LiveData<String> = _text
 }

@@ -35,15 +35,19 @@ class UpgradesAdapter(private val dataset: List<UpgradeCard>, private val contex
 
         when (dataset[position].aember) {
             0 -> holder.constraintLayout.aember_layout.visibility = View.GONE
-            else -> holder.constraintLayout.aember_tv.text = dataset[position].aember.toString()
+            else -> {
+                holder.constraintLayout.aember_layout.visibility = View.VISIBLE
+                holder.constraintLayout.aember_tv.text = dataset[position].aember.toString()
+            }
         }
+
         bindEffectsAdapter(
             dataset[position].effects,
             holder.constraintLayout.card_effects_recycler,
             context
         )
 
-        bindEffectsAdapter(dataset[position].effects, holder.constraintLayout.card_effects_recycler, context)
+        //bindEffectsAdapter(dataset[position].effects, holder.constraintLayout.card_effects_recycler, context)
     }
 
     override fun getItemCount() = dataset.size

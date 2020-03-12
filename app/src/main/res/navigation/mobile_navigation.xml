@@ -3,59 +3,96 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_brobnar">
+    app:startDestination="@id/nav_brobnar">
 
     <fragment
         android:id="@+id/nav_brobnar"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.brobnar.BrobnarFragment"
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
         android:label="@string/menu_brobnar"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="brobnar" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_dis"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.dis.DisFragment"
-        android:label="@string/menu_dis"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_dis">
+        <argument
+            android:name="house"
+            android:defaultValue="dis"
+            app:argType="string" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_logos"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.logos.LogosFragment"
-        android:label="@string/menu_logos"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_logos" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="logos" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_mars"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.mars.MarsFragment"
-        android:label="@string/menu_mars"
-        tools:layout="@layout/fragment_tools" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_mars" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="mars" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_sanctum"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.sanctum.SanctumFragment"
-        android:label="@string/menu_sanctum"
-        tools:layout="@layout/fragment_share" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_sanctum" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="sanctum" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_shadow"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.shadow.ShadowFragment"
-        android:label="@string/menu_shadow"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_shadow" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="shadow" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_saurian"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.saurian.SaurianFragment"
-        android:label="@string/menu_saurian"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_saurian" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="saurian" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_staralliance"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.staralliance.StarallianceFragment"
-        android:label="@string/menu_staralliance"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_staralliance" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="staralliance" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_untamed"
-        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.untamed.UntamedFragment"
-        android:label="@string/menu_untamed"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saphirel.android.keyforgeassistant.ui.listing.houses.HouseFragment"
+        android:label="@string/menu_untamed" >
+        <argument
+            android:name="house"
+            app:argType="string"
+            android:defaultValue="untamed" />
+    </fragment>
 </navigation>
