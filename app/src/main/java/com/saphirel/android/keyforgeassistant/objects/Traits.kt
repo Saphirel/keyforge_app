@@ -40,5 +40,21 @@ enum class Traits {
     ALLY,
     MARTIAN,
     SOLDIER,
-    AGENT
+    AGENT,
+    QUEST,
+    LAW,
+    THIEF,
+    MONK,
+    SPIRIT,
+    MERCHANT,
+    HORSEMAN,
+    ANGEL,
+    PRIEST,
+    PHILOSOPHER;
+
+    companion object {
+        fun serialize(traits: List<Traits>): String {
+            return traits.joinToString(",")
+        }
+    }
 }

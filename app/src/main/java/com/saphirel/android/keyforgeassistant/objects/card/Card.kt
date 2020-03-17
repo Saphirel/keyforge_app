@@ -2,9 +2,8 @@ package com.saphirel.android.keyforgeassistant.objects.card
 
 import com.saphirel.android.keyforgeassistant.objects.Effect
 import com.saphirel.android.keyforgeassistant.objects.Extensions
-import com.saphirel.android.keyforgeassistant.objects.SpecialEffects
+import com.saphirel.android.keyforgeassistant.objects.SpecialEffect
 import com.saphirel.android.keyforgeassistant.objects.Types
-import com.squareup.moshi.JsonClass
 
 interface Card {
     var name: String
@@ -12,5 +11,4 @@ interface Card {
     var aember: Int
     var effects: List<Effect>
     var type: Types
-    var special: List<SpecialEffects>
 }

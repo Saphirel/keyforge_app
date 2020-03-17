@@ -16,6 +16,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.saphirel.android.keyforgeassistant.database.Database
+import com.saphirel.android.keyforgeassistant.database.DbUtils
 import com.saphirel.android.keyforgeassistant.objects.House
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         initUi()
-        //initDb()
+        initDb()
     }
 
     private fun initUi() {
@@ -61,6 +62,10 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         navView.itemIconTintList = null
+    }
+
+    private fun initDb() {
+        DbUtils.initDbWithJsonFiles(application as AppActivity)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

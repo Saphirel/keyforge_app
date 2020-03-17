@@ -2,82 +2,1126 @@
   "name": "saurian",
   "artifacts": [
     {
-      "name": "",
+      "name": "The Golden Spiral",
       "type": "ARTIFACT",
       "traits": [
-        ""
+        "LOCATION"
       ],
       "aember": 0,
       "extension": [
-        ""
+        "WC"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ACTION"
           ],
-          "text": ""
+          "text": "Exalt a friendly creature. Ready and use that creature."
+        }
+      ]
+    },
+    {
+      "name": "Library of Polliasaurus",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Move 1 aember from a friendly creature to your pool."
+        }
+      ]
+    },
+    {
+      "name": "Auto-Legionary",
+      "type": "ARTIFACT",
+      "traits": [
+        "ROBOT", "ALLY"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Put Auto-Legionary on a flank of your battleline. While in the battleline, it is considered a creature with 5 power and belongs to all houses."
+        }
+      ]
+    },
+    {
+      "name": "City Gates",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "A friendly creature captures 1 aember. If that creature is a Dinosaur, it captures 2 aembers instead."
+        }
+      ]
+    },
+    {
+      "name": "Imperial Road",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Play a Saurian creature. That creature enters play stunned."
+        }
+      ]
+    },
+    {
+      "name": "The Colosseum",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature is destroyed while fighting, put a glory counter on The Colosseum."
+        },
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "If there are 6 or more glory counter on The Colosseum, remove 6 and forge a key at current cost."
         }
       ]
     }
   ],
   "creatures": [
     {
-      "name": "",
+      "name": "Brutodon Auxiliary",
       "type": "CREATURE",
       "traits": [
-        ""
+        "BEAST"
       ],
-      "special": [],
-      "power": 0,
+      "special": ["TAUNT", "HAZARDOUS_2"],
+      "power": 6,
       "armor": 0,
       "aember": 0,
       "extension": [
-        ""
+        "WC"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Legatus Raptor",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "FIGHT"
           ],
-          "text": ""
+          "text": "You may exalt Legatus Raptor. If you do, ready and use another friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Odoac the Patrician",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While Odoac the Patrician has aember on it, your aember cannot be stolen."
+        },
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Praefectus Ludo",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each other friendly creature gains, \"Destroyed: Move each aember on this creature to the common supply.\""
+        }
+      ]
+    },
+    {
+      "name": "Questor Jarta",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You mau exalt Questor Jarta. If you do, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Rhetor Gallim",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "PHILOSOPHER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent's keys cost +3 aembers during their next turn."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may exalt Rhetor Gallim. If you do, your opponent's keys cost +3 aembers during their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Senator Shrix",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You may spend aember on Senator Shrix as if it were in your pool."
+        },
+        {
+          "appliesWhen": [
+            "PLAY", "REAP"
+          ],
+          "text": "You may exalt Senator Shrix."
+        }
+      ]
+    },
+    {
+      "name": "Thero Centurion",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Tricerian Legionary",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": ["TAUNT"],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ward a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Centurion Stenopius",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Centurion Stenopius gets +3 power for each aember on it."
+        },
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "You may exalt Centurion Stenopius."
+        }
+      ]
+    },
+    {
+      "name": "Draco Praeco",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may exalt Draco Praeco. If you do, choose a house. Enrage each creature of that house."
+        }
+      ]
+    },
+    {
+      "name": "Gargantodon",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 16,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Gargantodon enters play stunned."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Gargantodon only deals 4 damages when fighting."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each aember that would be stolen is captured by a creature controlled by the active player instead."
+        }
+      ]
+    },
+    {
+      "name": "Orator Hissaro",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": ["DEPLOY"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready and exalt each of Orator Hissaro's neighbors. For the remainder of the turn, they belong to house Saurian."
+        }
+      ]
+    },
+    {
+      "name": "Paraguardian",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may exalt Paraguardian. If you do, ward each of its neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Philophosaurus",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "PHILOSOPHER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may look at the top 3 cards of your deck. ARchive 1, add 1 to your hand, and discard 1."
+        }
+      ]
+    },
+    {
+      "name": "Terrordactyl",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": [],
+      "power": 12,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Terrordactyl enters play stunned."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Terrordactyl only deal 4 damages when fighting."
+        },
+        {
+          "appliesWhen": [
+            "BEFORE_FIGHT"
+          ],
+          "text": "Deal 4 damages to each neighbor of the creature Terrordactyl fights."
+        }
+      ]
+    },
+    {
+      "name": "Tribune Pompitus",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly creature gets +2 power for each aember on it."
+        },
+        {
+          "appliesWhen": [
+            "BEFORE_FIGHT"
+          ],
+          "text": "You may exalt Tribune Pompitus."
+        }
+      ]
+    },
+    {
+      "name": "Cincinnatus Rex",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 4,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "If there are no enemy creatures, destroy Cincinnatus Rex."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "You may exalt Cincinnatus Rex. If you do, ready each other friendly card."
+        }
+      ]
+    },
+    {
+      "name": "Crassosaurus",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 10 aembers from any combination of players. Then, if Crassosaurus has fewer than 10 aembers on it, purge Crassosaurus."
+        }
+      ]
+    },
+    {
+      "name": "Grimlocus Dux",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": ["TAUNT"],
+      "power": 11,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Exalt Grimlocus Dux twice."
+        }
+      ]
+    },
+    {
+      "name": "Kompsos Haruspec",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "PRIEST"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly creature's play effect is play/reap effect."
+        }
+      ]
+    },
+    {
+      "name": "Livia the Elder",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "PHILOSOPHER"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may exalt Livia the Elder. If you do, each friendly creature's fight effects and reap effects are fight/reap effects for the remainder of the turn."
+        }
+      ]
+    },
+    {
+      "name": "Primus Unguis",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly creature gets +2 power for each aember on Primus Unguis."
+        }
+      ]
+    },
+    {
+      "name": "Saurus Rex",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "LEADER"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "If Saurus Rex is in the center of your battleline, you may exalt it. If you do, search your deck for a Saurian card, reveal it, and add it to your hand. Then, shuffle your deck."
+        }
+      ]
+    },
+    {
+      "name": "Senator Bracchus",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "POLITICIAN"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You may spend aember on friendly creatures as if it were in your pool."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Exalt Senator Bracchus."
+        }
+      ]
+    },
+    {
+      "name": "Spartasaur",
+      "type": "CREATURE",
+      "traits": [
+        "DINOSAUR", "SOLDIER"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a friendly creature is destroyed, destroy each non-Dinosaur creature."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Gain 2 aembers."
         }
       ]
     }
   ],
   "actions": [
     {
-      "name": "",
+      "name": "Axiom of Grisk",
       "type": "ACTION",
       "aember": 0,
       "extension": [
-        ""
+        "WC"
       ],
       "special": [],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "PLAY"
           ],
-          "text": ""
+          "text": "Ward a creature. Destroy each creature with no aember on it. Gain 2 chains."
+        }
+      ]
+    },
+    {
+      "name": "Chant of Hubris",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Move 1 aember from a creature to another creature."
+        }
+      ]
+    },
+    {
+      "name": "Imperium",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ward 2 friendly creatures."
+        }
+      ]
+    },
+    {
+      "name": "Phalanx Strike",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. Deal 1 damage to it for each friendly creature. You may exalt a friendly creature to repeat the preceding effect."
+        }
+      ]
+    },
+    {
+      "name": "Tribute",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "The most powerful frienldy creature captures 2 aembers. You may exalt that creature to repeat the preceding effect."
+        }
+      ]
+    },
+    {
+      "name": "Ancient Power",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ward each friendly creature with aember on it."
+        }
+      ]
+    },
+    {
+      "name": "City-State Interest",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each friendly creature captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Exile",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Give control of a friendly creature to your opponent."
+        }
+      ]
+    },
+    {
+      "name": "Regrettable Meteor",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each Dinosaur creature and each creature with power 6 or higher."
+        }
+      ]
+    },
+    {
+      "name": "Sic Semper Tyrannosaurus",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Move each aember from the most powerful creature to your pool and destroy that creature."
+        }
+      ]
+    },
+    {
+      "name": "Stomp",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 5 damages to a creature. If this damage destroys that creature, exalt a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Diplo-Macy",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Until the start of your next turn, each creature gains, \"Before Fight: Exalt this creature.\""
+        }
+      ]
+    },
+    {
+      "name": "Favor of Rex",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Trigger the play effect of a creature as if you had just played it."
+        }
+      ]
+    },
+    {
+      "name": "Good of the Many",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each creature that does nos share a trait with another creature in its controller's battleline."
+        }
+      ]
+    },
+    {
+      "name": "Imperial Forge",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Forge a key at +8 aembers current cost, reduced by 1 aember for each aember on friendly creatures."
+        }
+      ]
+    },
+    {
+      "name": "Saury About That",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy a creature. Its controller gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Sow Salt",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Until the start of your next turn, creatures cannot be used to reap."
+        }
+      ]
+    },
+    {
+      "name": "Tertiate",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy one third of all enemy creatures and one third of all friendly creatures (rounding up each time)."
+        }
+      ]
+    },
+    {
+      "name": "Triumph",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If there are no enemy creatures, exalt each friendly creature. If you do and there are 6 or more friendly creatures, forge a key at no cost."
         }
       ]
     }
   ],
   "upgrades": [
     {
-      "name": "",
+      "name": "Imperial Scutum",
       "type": "UPGRADE",
-      "aember": 0,
+      "aember": 1,
       "extension": [
-        ""
+        "WC"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ANY"
           ],
-          "text": ""
+          "text": "This creature gets +2 armor and gains, \"Destroyed: Move each aember on this creature to the common supply.\""
+        }
+      ]
+    },
+    {
+      "name": "The Callipygian Ideal",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Exalt this creature."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"You may spend aember on this creature as if it were in your pool.\""
         }
       ]
     }

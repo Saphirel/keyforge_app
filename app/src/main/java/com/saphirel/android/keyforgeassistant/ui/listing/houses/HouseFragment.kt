@@ -10,7 +10,9 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.tabs.TabLayout
+import com.saphirel.android.keyforgeassistant.AppActivity
 import com.saphirel.android.keyforgeassistant.R
+import com.saphirel.android.keyforgeassistant.database.DbUtils
 import com.saphirel.android.keyforgeassistant.json.JSonManager
 import com.saphirel.android.keyforgeassistant.ui.CardsPager
 import kotlinx.android.synthetic.main.fragment_gallery.*
@@ -26,8 +28,7 @@ class HouseFragment : Fragment() {
         val houseName = arguments?.getString("house")
 
         val adapter = CardsPager(fragmentManager!!, houseName?.let {
-            JSonManager.loadHouseCardsFromJSon(
-                it, resources, context!!)
+            DbUtils.pullCardsFromDbByHouse(it, activity?.application as AppActivity)
         }!!)
         view_pager.adapter = adapter
         view_pager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabs))

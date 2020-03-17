@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.saphirel.android.keyforgeassistant.R
 import com.saphirel.android.keyforgeassistant.Utils
 import com.saphirel.android.keyforgeassistant.Utils.Companion.bindEffectsAdapter
+import com.saphirel.android.keyforgeassistant.objects.SpecialEffect
 import com.saphirel.android.keyforgeassistant.objects.card.ActionCard
-import kotlinx.android.synthetic.main.card_action_view.view.*
 import kotlinx.android.synthetic.main.card_action_view.view.aember_layout
 import kotlinx.android.synthetic.main.card_action_view.view.aember_tv
 import kotlinx.android.synthetic.main.card_action_view.view.card_combat_effects_tv
@@ -41,7 +41,7 @@ class ActionsAdapter(private val dataset: List<ActionCard>, private val context:
             }
         }
 
-        val specialEffects = Utils.formatSpecialCombatEffects(dataset[position].special)
+        val specialEffects = SpecialEffect.formatSpecialCombatEffects(dataset[position].special)
         when (specialEffects.length) {
             0 -> holder.constraintLayout.card_combat_effects_tv.visibility = View.GONE
             else -> holder.constraintLayout.card_combat_effects_tv.text = specialEffects

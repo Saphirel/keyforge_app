@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.saphirel.android.keyforgeassistant.R
 import com.saphirel.android.keyforgeassistant.Utils
 import com.saphirel.android.keyforgeassistant.objects.Effect
+import com.saphirel.android.keyforgeassistant.objects.Trigger
 import kotlinx.android.synthetic.main.effect_view.view.*
 
 class EffectAdapter(private val dataset: List<Effect>): RecyclerView.Adapter<EffectAdapter.EffectViewHolder>() {
@@ -20,7 +21,7 @@ class EffectAdapter(private val dataset: List<Effect>): RecyclerView.Adapter<Eff
     }
 
     override fun onBindViewHolder(holder: EffectViewHolder, position: Int) {
-        holder.constraintLayout.effect_text.text = Html.fromHtml(Utils.formatEffectTriggers(dataset[position].appliesWhen) + dataset[position].text)
+        holder.constraintLayout.effect_text.text = Html.fromHtml(Trigger.formatEffectTriggers(dataset[position].appliesWhen) + dataset[position].text)
     }
 
     override fun getItemCount() = dataset.size

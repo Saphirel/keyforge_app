@@ -14,11 +14,11 @@ interface HouseDao {
     @Query("SELECT * FROM housedb WHERE id IN (:houseIds)")
     fun loadAllByIds(houseIds: IntArray): List<HouseDb>
 
-//    @Query("SELECT * FROM housedb WHERE name LIKE :first")
-//    fun findByName(first: String, last: String): HouseDb
+    @Query("SELECT * FROM housedb WHERE houseName LIKE :name")
+    fun findByName(name: String): HouseDb
 
     @Insert
-    fun insertAll(vararg users: HouseDb)
+    fun insertAll(vararg houses: HouseDb)
 
     @Delete
     fun delete(user: HouseDb)

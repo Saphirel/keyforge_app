@@ -11,10 +11,6 @@ import java.io.BufferedReader
 class JSonManager {
     companion object {
         fun loadHouseCardsFromJSon(houseName: String, resources: Resources, context: Context): House? {
-//            db = Room.databaseBuilder(
-//                context!!,
-//                Database::class.java, "keyforge-assistant"
-//            ).build()
 
             val raw = resources.openRawResource(resources.getIdentifier(houseName, "raw", context.packageName))
             val content = raw.bufferedReader().use(BufferedReader::readText)

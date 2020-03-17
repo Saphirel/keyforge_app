@@ -2,17 +2,15 @@ package com.saphirel.android.keyforgeassistant.ui.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.saphirel.android.keyforgeassistant.R
 import com.saphirel.android.keyforgeassistant.Utils
 import com.saphirel.android.keyforgeassistant.Utils.Companion.bindEffectsAdapter
+import com.saphirel.android.keyforgeassistant.objects.SpecialEffect
 import com.saphirel.android.keyforgeassistant.objects.card.CreatureCard
 import kotlinx.android.synthetic.main.card_creature_view.view.*
 import kotlinx.android.synthetic.main.card_creature_view.view.card_effects_recycler
@@ -47,7 +45,7 @@ class CreaturesAdapter(private val dataset: List<CreatureCard>, private val hous
 
         holder.constraintLayout.card_power_tv.text = "${dataset[position].power}"
         holder.constraintLayout.card_shield_tv.text = "${dataset[position].armor}"
-        holder.constraintLayout.card_combat_effects_tv.text = Utils.formatSpecialCombatEffects(dataset[position].special)
+        holder.constraintLayout.card_combat_effects_tv.text = SpecialEffect.formatSpecialCombatEffects(dataset[position].special)
 
         bindEffectsAdapter(dataset[position].effects, holder.constraintLayout.card_effects_recycler, context)
     }

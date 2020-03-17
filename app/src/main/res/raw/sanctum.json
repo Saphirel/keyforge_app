@@ -2,82 +2,1761 @@
   "name": "sanctum",
   "artifacts": [
     {
-      "name": "",
+      "name": "Hallowed Shield",
       "type": "ARTIFACT",
       "traits": [
-        ""
+        "ITEM"
       ],
       "aember": 0,
       "extension": [
-        ""
+        "AOA"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ACTION"
           ],
-          "text": ""
+          "text": "Choose a creature. For the remainder of the turn, the chose creature cannot be dealt damage."
+        }
+      ]
+    },
+    {
+      "name": "Hallowed Blaster",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Heal 3 damages from a creature."
+        }
+      ]
+    },
+    {
+      "name": "Potion of Invulnerability",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Potion on Invulnerability. For the remainder of the turn, each friendly creature cannot be dealt damage."
+        }
+      ]
+    },
+    {
+      "name": "Gorm of Omm",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Gorm of Omm. Destroy an artifact."
+        }
+      ]
+    },
+    {
+      "name": "Round Table",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly Knight creature gets +1 power and gains taunt."
+        }
+      ]
+    },
+    {
+      "name": "Haedroth's Wall",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly flank creature gets +2 power."
+        }
+      ]
+    },
+    {
+      "name": "Whispering Reliquary",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Return an artifact to it's owner hand."
+        }
+      ]
+    },
+    {
+      "name": "Sigil of Brotherhood",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Sigil of Brotherhood. For the remainder of the turn, you may use friendly Sanctum creatures."
+        }
+      ]
+    },
+    {
+      "name": "Epic Quest",
+      "type": "ARTIFACT",
+      "traits": [
+        "QUEST"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive each friendly Knight creature in play."
+        },
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "If you have played 7 or more Sanctum cards this turn, sacrifice Epic Quest and forge key at no cost."
+        }
+      ]
+    },
+    {
+      "name": "Eye of Judgment",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Purge a creature from a discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Proclamation 346E",
+      "type": "ARTIFACT",
+      "traits": [
+        "LAW"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While your opponent does not control creatures from 3 different houses, their keys cost +2 aember."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Hope",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM", "SHARD"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "A friendly creature captures 1 aember for each friendly Shard."
         }
       ]
     }
   ],
   "creatures": [
     {
-      "name": "",
+      "name": "\"Lion\" Bautrem",
       "type": "CREATURE",
       "traits": [
-        ""
+        "HUMAN", "KNIGHT"
       ],
-      "special": [],
-      "power": 0,
-      "armor": 0,
+      "special": ["DEPLOY"],
+      "power": 4,
+      "armor": 1,
       "aember": 0,
       "extension": [
-        ""
+        "AOA"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ANY"
           ],
-          "text": ""
+          "text": "\"Lion\" Bautrem's neighbors get +2 power."
+        }
+      ]
+    },
+    {
+      "name": "Abond the Armorsmith",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Other friendly creatures get +1 armor."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "For the remainder of the turn, other friendly creatures get +1 armor."
+        }
+      ]
+    },
+    {
+      "name": "Aubade the Grim",
+      "type": "CREATURE",
+      "traits": [
+        "SPIRIT", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 3 aembers."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Discard 1 aember from Aubade the Grim."
+        }
+      ]
+    },
+    {
+      "name": "Bordan the Redeemed",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Capture 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Challe the Safeguard",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": ["DEPLOY", "TAUNT"],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Maruck the Marked",
+      "type": "CREATURE",
+      "traits": [
+        "SPIRIT", "KNIGHT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After Maruck the Marked prevents damage with its armor capture 1 aember for each damage just prevented."
+        }
+      ]
+    },
+    {
+      "name": "Sir Marrows",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After your opponent gains aember by reaping, Sir Marrows captures it."
+        }
+      ]
+    },
+    {
+      "name": "The Grey Rider",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "MONK"
+      ],
+      "special": ["DEPLOY"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "You may ready and fight with a neighboring creature."
+        }
+      ]
+    },
+    {
+      "name": "Baron Mengevin",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you discard a Sanctum card from your hand, Baron, Mengevin captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Barrister Joya",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Enemy creatures cannot reap."
+        }
+      ]
+    },
+    {
+      "name": "Brobnar Ambassador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use a Brobnar card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Dis Ambassador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use a Dis card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Logos Amabssador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use a Logos card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Bulwark",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each of Bulwark's neighbors gets +2 armor."
+        }
+      ]
+    },
+    {
+      "name": "Mars Ambassador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use a Mars card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Champion Anaphiel",
+      "type": "CREATURE",
+      "traits": [
+        "KNIGHT", "SPIRIT"
+      ],
+      "special": ["TAUNT"],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Champion Tabris",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Prince Derric, Unifier",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 3 aembers if you control creatures from 3 different houses."
+        }
+      ]
+    },
+    {
+      "name": "Commander Remiel",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Use a friendly non-Sanctum creature."
+        }
+      ]
+    },
+    {
+      "name": "Duma the Martyr",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Fully heal each other friendly creature and draw 2 cards."
+        }
+      ]
+    },
+    {
+      "name": "Rothais the Fierce",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": ["TAUNT", "HAZARDOUS_4"],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Francus",
+      "type": "CREATURE",
+      "traits": [
+        "KNIGHT", "SPIRIT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After an enemy creature is destroyed fighting francus, Francus captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Shadows Ambassador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use a Shadows card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Grey Monk",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "PRIEST"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each friendly creature gets +1 armor."
+        },
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Heal 2 damages from a creature."
+        }
+      ]
+    },
+    {
+      "name": "Hayyel the Merchant",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "MERCHANT"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each time you play an artifact, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Horseman of Death",
+      "type": "CREATURE",
+      "traits": [
+        "HORSEMAN", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return each Horseman creature from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Horseman of Famine",
+      "type": "CREATURE",
+      "traits": [
+        "HORSEMAN", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "Destroy the least powerful creature."
+        }
+      ]
+    },
+    {
+      "name": "Untamed Ambassador",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may play or use an Untamed card this turn."
+        }
+      ]
+    },
+    {
+      "name": "Anahita the Trader",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "MERCHANT"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Give control of a friendly artifact to your opponent. If you do, they muse give you 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Horseman of Pestilence",
+      "type": "CREATURE",
+      "traits": [
+        "HORSEMAN", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY", "FIGHT", "REAP"
+          ],
+          "text": "Deal 1 damage to each non-Horsemane creature."
+        }
+      ]
+    },
+    {
+      "name": "Horseman of War",
+      "type": "CREATURE",
+      "traits": [
+        "HORSEMAN", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, aech friendly creature can be used as if they were in the active house, but can only fight."
+        }
+      ]
+    },
+    {
+      "name": "Jehu the Bureaucrat",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you choose Sanctum as your active house, gain 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Lady Maxena",
+      "type": "CREATURE",
+      "traits": [
+        "KNIGHT", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Stun a creature."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Return Lady Maxena to its owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Lord Golgotha",
+      "type": "CREATURE",
+      "traits": [
+        "SPIRIT", "KNIGHT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "BEFORE_FIGHT"
+          ],
+          "text": "Deal 3 damages to each neighbor of the creature Lors Golgotha fights."
+        }
+      ]
+    },
+    {
+      "name": "Numquid the Fair",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy an enemy creature. Repeat this card's effect if your opponent still controls more creatures than you."
+        }
+      ]
+    },
+    {
+      "name": "Protectrix",
+      "type": "CREATURE",
+      "traits": [
+        "KNIGHT", "SPIRIT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "You may fully heal a creature. If you do, that creature cannot be dealt damage for the remainder of the turn."
+        }
+      ]
+    },
+    {
+      "name": "Raiding Knight",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Sanctum Guardian",
+      "type": "CREATURE",
+      "traits": [
+        "SPIRIT", "KNIGHT"
+      ],
+      "special": ["TAUNT"],
+      "power": 6,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Swap Sanctum Guardian with another friendly creature in your battleline."
+        }
+      ]
+    },
+    {
+      "name": "Sequis",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Capture 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Mother Nortelle",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "MONK"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Move 1 aember from a friendly creature to your pool."
+        }
+      ]
+    },
+    {
+      "name": "Sergeant Zakiel",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You may ready and fight with a neighboring creature."
+        }
+      ]
+    },
+    {
+      "name": "Staunch Knight",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 2,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Staunch Knight gets +2 power while it is on a flank."
+        }
+      ]
+    },
+    {
+      "name": "Gatekeeper",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "KNIGHT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has 7 or more aembers, capture all but 5 of it."
+        }
+      ]
+    },
+    {
+      "name": "Opal Knight",
+      "type": "CREATURE",
+      "traits": [
+        "SPIRIT", "KNIGHT"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each creature with even power."
+        }
+      ]
+    },
+    {
+      "name": "The Vaultkeeper",
+      "type": "CREATURE",
+      "traits": [
+        "KNIGHT", "SPIRIT"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 1,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your aember cannot be stolen."
+        }
+      ]
+    },
+    {
+      "name": "Veemos Lightbringer",
+      "type": "CREATURE",
+      "traits": [
+        "ANGEL", "SPIRIT"
+      ],
+      "special": [],
+      "power": 6,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each elusive creature."
         }
       ]
     }
   ],
   "actions": [
     {
-      "name": "",
+      "name": "Blinding Light",
       "type": "ACTION",
-      "aember": 0,
+      "aember": 1,
       "extension": [
-        ""
+        "COTA", "AOA"
       ],
       "special": [],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "PLAY"
           ],
-          "text": ""
+          "text": "Choose a house. Stun each creature of that house."
+        }
+      ]
+    },
+    {
+      "name": "Charge!",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, each creature you play gains \"Play: Deal 2 damages to an enemy creature.\""
+        }
+      ]
+    },
+    {
+      "name": "Cleansing Wave",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Heal 1 damage from each creature. Gain 1 aember for each creature healed this way."
+        }
+      ]
+    },
+    {
+      "name": "Clear Mind",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Unstun each friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Doorstep to Heaven",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each player with 6 aembers or more is reduced to 5 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Golden Aura",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. Fully heal the chosen creature. For the remainder of the turn, the chosen creature is considered to be in house Sanctum and cannot be dealt damage."
+        }
+      ]
+    },
+    {
+      "name": "Glorious Few",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For each creature your opponent controls in excess of you, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Healing Blast",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Fully heal a creature. If you healed 4 or more damage this way, gain 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Honorable Claim",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each friendly Knight creature captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Inspiration",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready and use a friendly creature."
+        }
+      ]
+    },
+    {
+      "name": "Shield of Justice",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, each friendly creature cannot be dealt damage."
+        }
+      ]
+    },
+    {
+      "name": "Radiant Truth",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Stun each enemy creature not on a flank."
+        }
+      ]
+    },
+    {
+      "name": "Smite",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready and fight with a friendly creature. Deal 2 damages to the attacked creature's neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Take Hostages",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "For the remainder of the turn, each time a friendly creature fights, it captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Terms of Redress",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a friendly creature to capture 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "The Spirit's Way",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each creature with power 3 or highter."
+        }
+      ]
+    },
+    {
+      "name": "Virtuous Work",
+      "type": "ACTION",
+      "aember": 3,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": []
+    },
+    {
+      "name": "Equalize",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Redistribute the aember on friendly creatures among friendly creatures. Then, redistribute the aember on enemy creatures among enemy creatures."
+        }
+      ]
+    },
+    {
+      "name": "Free Markets",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Gain 1 aember (to a maximum of 6) for each house represented among cards in play, except for Sanctum."
+        }
+      ]
+    },
+    {
+      "name": "The Harder They Come",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Purge a creature with power 5 or higher."
+        }
+      ]
+    },
+    {
+      "name": "Begone!",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose one: destroy each Dis creature, or gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Martyr's End",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy any number of friendly creatures. Gain 1 aember for each creature destroyed this way."
+        }
+      ]
+    },
+    {
+      "name": "Mighty Lance",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 3 damages to a creature and 3 damages to a neighbor of that creature."
+        }
+      ]
+    },
+    {
+      "name": "Oath of Poverty",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy each of your artifacts. Gain 2 aembers for each artifact destroyed this way."
+        }
+      ]
+    },
+    {
+      "name": "One Stood Against",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ready and fight with a friendly creature 3 times. each time against a different enemy creature. Resolve these fights one at a time"
         }
       ]
     }
   ],
   "upgrades": [
     {
-      "name": "",
+      "name": "Armageddon Cloak",
       "type": "UPGRADE",
-      "aember": 0,
+      "aember": 1,
       "extension": [
-        ""
+        "COTA", "AOA"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ANY"
           ],
-          "text": ""
+          "text": "This creature gains hazardous 2 and, \"Destroyed: Fully heal this creature and destroy Armageddon Cloak instead.\""
+        }
+      ]
+    },
+    {
+      "name": "Seraphic Armor",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gets +1 armor."
+        },
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Fully heal this creature."
+        }
+      ]
+    },
+    {
+      "name": "Mantle of the Zealot",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"You may use this creature as if it belonged to the active house.\""
+        }
+      ]
+    },
+    {
+      "name": "Protect the Weak",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gets +1 armor and gains taunt. (This creature's neighbors cannot be attacked unless they have taunt.)"
+        }
+      ]
+    },
+    {
+      "name": "Shoulder Armor",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While this creature is on a flank, it gets +2 armor and +2 power."
         }
       ]
     }
