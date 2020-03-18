@@ -1,5 +1,7 @@
 package com.saphirel.android.keyforgeassistant
 
+import android.app.Application
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -26,15 +28,25 @@ import java.io.BufferedReader
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var prefs: SharedPreferences
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var db: Database
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        prefs = getSharedPreferences(applicationContext.packageName, Application.MODE_PRIVATE);
         setContentView(R.layout.activity_main)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        if (prefs.getBoolean("firstrun", true)) {
+            initDb()
+            prefs.edit().putBoolean("firstrun", false).apply()
+        }
 
         initUi()
-        initDb()
     }
 
     private fun initUi() {

@@ -2,82 +2,2270 @@
   "name": "shadow",
   "artifacts": [
     {
-      "name": "",
+      "name": "Spike Trap",
       "type": "ARTIFACT",
       "traits": [
-        ""
+        "WEAPON"
       ],
-      "aember": 0,
+      "aember": 1,
       "extension": [
-        ""
+        "WC"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "OMNI"
           ],
-          "text": ""
+          "text": "Sacrifice Spike Trap. If you do, deal 3 damages to each flank creature."
+        }
+      ]
+    },
+    {
+      "name": "Gambling Den",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the start of each player's turn, that player may name a house. If they do, reveal the top card of their deck. If it is of the named house, they gain 2 aembers. Otherwise, they lose 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Keyforgery",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "When your opponent would forge a key, that player names a house. Reveal a random card from your hand. If that card is not of the named house, destroy Keyforgery and they do not forge that key (no aember is spent)."
+        }
+      ]
+    },
+    {
+      "name": "Longfused Mines",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Longfused Mines. Deal 3 damages to each enemy creature not on a flank."
+        }
+      ]
+    },
+    {
+      "name": "The Quiet Anvil",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Keys cost -2 aembers."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player forges a key, destroy The Quiet Anvil."
+        }
+      ]
+    },
+    {
+      "name": "Customs Office",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Your opponent must pay you 1 aember in order to play an artifact."
+        }
+      ]
+    },
+    {
+      "name": "Evasion Sigil",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Before a creature fights, discard the top card of its controller's deck. If the discarded card is of the active house, exhaust that creature with no effect."
+        }
+      ]
+    },
+    {
+      "name": "Hideaway Hole",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Hideaway Hole. Creatures you control gain elusive until the start of your next turn."
+        }
+      ]
+    },
+    {
+      "name": "Masterplan",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Put a card from your hand facedown beneath Masterplan."
+        },
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Play the card beneath Masterplan. Sacrifice Masterplan."
+        }
+      ]
+    },
+    {
+      "name": "Safe Place",
+      "type": "ARTIFACT",
+      "traits": [
+        "LOCATION"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You may spend aember on Safe Place when forging keys."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Move 1 aember from your pool to Safe Place."
+        }
+      ]
+    },
+    {
+      "name": "Seeker Needle",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Deal 1 aember to a creature. If this damage destroys that creature, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Special Delivery",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Sacrifice Special Delivery. Deal 3 damages to a flank creature. If this damage destroys that creature, purge it."
+        }
+      ]
+    },
+    {
+      "name": "Speed Sigil",
+      "type": "ARTIFACT",
+      "traits": [
+        "POWER"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "The first creature played each turn enters play ready."
+        }
+      ]
+    },
+    {
+      "name": "Subtle Maul",
+      "type": "ARTIFACT",
+      "traits": [
+        "WEAPON"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Key",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "A friendly creature captures 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "The Sting",
+      "type": "ARTIFACT",
+      "traits": [
+        "VEHICLE"
+      ],
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Skip your \"forge a key\" step."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You get all aember spent by your opponent when forging keys."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Sacrifice The Sting."
+        }
+      ]
+    },
+    {
+      "name": "Guard Disguise",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Sacrifice Guard Disguise. If your opponent has 3 aembers or fewer, steal 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Shard of Green",
+      "type": "ARTIFACT",
+      "traits": [
+        "ITEM", "SHARD"
+      ],
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Gain 1 aember for eaach friendly Shard."
         }
       ]
     }
   ],
   "creatures": [
     {
-      "name": "",
+      "name": "A. Vinda",
       "type": "CREATURE",
       "traits": [
-        ""
+        "ELF", "THIEF"
       ],
       "special": [],
-      "power": 0,
+      "power": 4,
       "armor": 0,
       "aember": 0,
       "extension": [
-        ""
+        "WC"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "REAP"
           ],
-          "text": ""
+          "text": "Deal 1 damage to a creature. If this damage destroys that creature, your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Bad Penny",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "THIEF"
+      ],
+      "special": [],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Return Bad Penny to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Breaker Hill",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each of Breaker Hill's neighbors gains, \"ACTION: Steal 1 aember.\""
+        }
+      ]
+    },
+    {
+      "name": "Hugger-Mugger",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 1 aember. Then, if your opponent has more forged keys than you, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "J. Vinda",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Deal 1 damage to a creature. If this damage destroys that creature, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Symon",
+      "type": "CREATURE",
+      "traits": [
+        "ALIEN", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Put the creature Symon fights on top of it's owner's deck."
+        }
+      ]
+    },
+    {
+      "name": "Yantzee Gang",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Chain Gang",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After you play Subtle Chain, ready Chain Gang."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Steal 1 aember. Shuffle a Subtle Chain from your discard pile into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Fidgit",
+      "type": "CREATURE",
+      "traits": [
+        "FAERIE", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Discard a random card from your opponent's archives or the top card of their deck. If that card is an action, play it as if it were yours."
+        }
+      ]
+    },
+    {
+      "name": "Whisper",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Lose 1 aember. If you do, destroy a creature."
+        }
+      ]
+    },
+    {
+      "name": "Finch Cloak",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "If you have less aember than your opponent, steal 1 aember. Otherwise, each player gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Gamgee",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "If your opponent has more aember than you, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Knuckles Bolton",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE", "SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Lamindra",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["DEPLOY", "ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Lamindra's neighbors gain elusive."
+        }
+      ]
+    },
+    {
+      "name": "Manchego",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "THIEF"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If you have 5 or fewer cards in your deck, steal 2 aembers."
+        },
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "You may shuffle Manchego into your deck."
+        }
+      ]
+    },
+    {
+      "name": "Ronnie Wristclocks",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember. If your opponent has 7 aembers or more, steal 2 aembers instead."
+        }
+      ]
+    },
+    {
+      "name": "Sneklifter",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Take control of an enemy artifact. While under your control, if it does not belong to one of your three houses, it is considered to be of house Shadow."
+        }
+      ]
+    },
+    {
+      "name": "The Shadow Council",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "LEADER", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "While The Shadow Council is in the center of your battleline, it gains, \"ACTION: Steal 2 aembers\"."
+        }
+      ]
+    },
+    {
+      "name": "Brend the Fanatic",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent gains 1 aember."
+        },
+        {
+          "appliesWhen": [
+            "DESTROYED"
+          ],
+          "text": "Steal 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Weasand",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "THIEF"
+      ],
+      "special": ["DEPLOY", "ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "If Weasand is ona flank, destroy it."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player forges a key, gain 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Brobnar Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Brobnar as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Dis Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Dis as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Logos Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Logos as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Little Nif",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["OMEGA", "DEPLOY", "ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a neighbor of Little Niff is used to fight, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Saurian Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Saurian as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Murkens",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a random card in your opponent's archives or the top card of your opponent's deck. Play that card as if it were yours."
+        }
+      ]
+    },
+    {
+      "name": "Star Alliance Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Star Alliance as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Untamed Plant",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "After a player chooses Untames as their active house, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Redlock",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the end of your turn, if you did not play any creatures this turn, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Carlo Phantom",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE", "SKIRMISH"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Each time yu play as artifact, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Bulleteye",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Destroy a flank creature."
+        }
+      ]
+    },
+    {
+      "name": "Faygin",
+      "type": "CREATURE",
+      "traits": [
+        "HUMAN", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Return an Urchin from play or from your discard pile to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Deipno Spymaster",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "OMNI"
+          ],
+          "text": "Choose a friendly creature. You may use that creature this turn."
+        }
+      ]
+    },
+    {
+      "name": "Macis Asp",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST"
+      ],
+      "special": ["SKIRMISH", "POISON"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": []
+    },
+    {
+      "name": "Magda the Rat",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 4,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 2 aembers."
+        },
+        {
+          "appliesWhen": [
+            "LEAVES_PLAY"
+          ],
+          "text": "You opponent steals 2 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Mooncurser",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["SKIRMISH", "POISON"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Nexus",
+      "type": "CREATURE",
+      "traits": [
+        "CYBORG", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "Use an opponent's artifact as if it were yours."
+        }
+      ]
+    },
+    {
+      "name": "Noddy the Thief",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Mack the Knife",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "You may use Mack the Knife as if it belonged to the active house."
+        },
+        {
+          "appliesWhen": [
+            "ACTION"
+          ],
+          "text": "Deal 1 damage to a creature. If this damage destroys that creature, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Old Bruno",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Capture 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Dodger",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 5,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Plague Rat",
+      "type": "CREATURE",
+      "traits": [
+        "BEAST", "RAT"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each non-Rat creature is dealt 1 damage for each Rat creature in play."
+        }
+      ]
+    },
+    {
+      "name": "Shadow Self",
+      "type": "CREATURE",
+      "traits": [
+        "SPECTER"
+      ],
+      "special": [],
+      "power": 9,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Shadow Self deals no damage when fighting."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Damage deslt to non-Specter neighbors is dealt to Shadow Self."
+        }
+      ]
+    },
+    {
+      "name": "Silvertooth",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Silvertooth enters play ready."
+        }
+      ]
+    },
+    {
+      "name": "Smiling Ruth",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "REAP"
+          ],
+          "text": "If you forged a key this turn, take control of an enemy flank creature."
+        }
+      ]
+    },
+    {
+      "name": "Scowly Caper",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "Scowly Caper enters play under your opponent's control and can be used as if it belonged to any house."
+        },
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "At the end of your turn, destroy one of Scowly Caper's neighbors."
+        }
+      ]
+    },
+    {
+      "name": "Selwyn the Fence",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": [],
+      "power": 3,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT", "REAP"
+          ],
+          "text": "Move 1 aember from one of your cards to your pool."
+        }
+      ]
+    },
+    {
+      "name": "Umbra",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["SKIRMISH"],
+      "power": 2,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "FIGHT"
+          ],
+          "text": "Steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Urchin",
+      "type": "CREATURE",
+      "traits": [
+        "ELF", "THIEF"
+      ],
+      "special": ["ELUSIVE"],
+      "power": 1,
+      "armor": 0,
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember."
         }
       ]
     }
   ],
   "actions": [
     {
-      "name": "",
+      "name": "Hit and Run",
       "type": "ACTION",
       "aember": 0,
       "extension": [
-        ""
+        "WC"
       ],
       "special": [],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "PLAY"
           ],
-          "text": ""
+          "text": "Deal 2 damages to a creature. Return a friendly creature to your hand."
+        }
+      ]
+    },
+    {
+      "name": "Hock",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy an artifact. If you do, gain 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Inky Gloom",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent cannot use creatures to reap on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Kymoor Eclipse",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Shuffle each flank creature into its owner's deck."
+        }
+      ]
+    },
+    {
+      "name": "Mug",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Move 1 aember from a creature to your pool. Deal 2 damages to that creature."
+        }
+      ]
+    },
+    {
+      "name": "Pestering Blow",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to a creature and enrage it."
+        }
+      ]
+    },
+    {
+      "name": "Trust No One",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember. If there are no friendly creatures in play, instead steal 1 aember for each house represented among enemy creatures (to a maximum of 3)."
+        }
+      ]
+    },
+    {
+      "name": "Hidden Stash",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Into the Night",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Until the start of your next turn, non-Shadow creatures cannot be used to fight."
+        }
+      ]
+    },
+    {
+      "name": "No Safety in Numbers",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 3 damages to each creature that belongs to a house that has 3 or more creatures in play."
+        }
+      ]
+    },
+    {
+      "name": "Subtle Chain",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Your opponent discards a random card from their hand."
+        }
+      ]
+    },
+    {
+      "name": "Bait and Switch",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has more aember than you, steal 1 aember. Repeat this card's effect if your opponent still has more aember than you."
+        }
+      ]
+    },
+    {
+      "name": "Booby Trap",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 4 damages to a creature that is not on a flank with 2 damages splash."
+        }
+      ]
+    },
+    {
+      "name": "Dusk Chronicles",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has more aember than you, draw a card. If you have more aember than your opponent, archive a card."
+        }
+      ]
+    },
+    {
+      "name": "Finishing Blow",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Destroy a damaged creature. If you do, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Furtive Investors",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has more aember than you, gain 1 aember for each key your opponent has forged."
+        }
+      ]
+    },
+    {
+      "name": "Hunter or Hunted ?",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Ward a creature, or move a ward from a creature to another creature."
+        }
+      ]
+    },
+    {
+      "name": "Gostly Hand",
+      "type": "ACTION",
+      "aember": 2,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If your opponent has exactly 1 aember, steal it."
+        }
+      ]
+    },
+    {
+      "name": "Key of Darkness",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Forge a key at +6 aembers current cost. If your opponent has no aember, forge a key at +2 current cost instead."
+        }
+      ]
+    },
+    {
+      "name": "Imperial Traitor",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Look at your opponent's hand. You may choose and purge a Sanctum card in it."
+        }
+      ]
+    },
+    {
+      "name": "Lethal Distraction",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Choose a creature. For the remainder of the turn, whenever this creature takes damage, it takes an additional 2 damages."
+        }
+      ]
+    },
+    {
+      "name": "Life for a Life",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Sacrifice a creature to deal 6 damages to a creature."
+        }
+      ]
+    },
+    {
+      "name": "Miasma",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "You opponent skips the \"Forge a key\" step on their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Nerve Blast",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember. If you do, deal 2 damages to a creature."
+        }
+      ]
+    },
+    {
+      "name": "Rigged Lottery",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Each player discards the top 5 cards of their deck. For each Shadows card discarded, its owner gains 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "One Last Job",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Purge each friendly Shadows creature. Steal 1 aember for each creature purged this way."
+        }
+      ]
+    },
+    {
+      "name": "Sucker Punch",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to an enemy creature. If that creature is destroyed by this effect, archive Sucker Punch."
+        }
+      ]
+    },
+    {
+      "name": "Sack of Coins",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to a creature for each aember in your pool."
+        }
+      ]
+    },
+    {
+      "name": "Swindle",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": ["ALPHA", "OMEGA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 3 aembers."
+        }
+      ]
+    },
+    {
+      "name": "Pawn Sacrifice",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Sacrifice a friendly creature. If you do, deal 3 damages each to 2 creatures."
+        }
+      ]
+    },
+    {
+      "name": "Throwing Stars",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to up to 3 creatures. Gain 1 aember for each creature destroyed this way."
+        }
+      ]
+    },
+    {
+      "name": "Poison Wave",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to each creature."
+        }
+      ]
+    },
+    {
+      "name": "Relentless Whispers",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 2 damages to a creature. If this damage destroys that creature, steal 1 aember."
+        }
+      ]
+    },
+    {
+      "name": "Whistling Darts",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Deal 1 damage to each enemy creatures."
+        }
+      ]
+    },
+    {
+      "name": "Too Much to Protect",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal all but 6 of your opponent's aembers."
+        }
+      ]
+    },
+    {
+      "name": "Lights  Out",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Return 2 enemy creatures to their owner's hand."
+        }
+      ]
+    },
+    {
+      "name": "Nightforge",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If you have not forged a key this turn, you may forge a key at +4 aembers current cost."
+        }
+      ]
+    },
+    {
+      "name": "Oubliette",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Purge a creature with power 3 or lower."
+        }
+      ]
+    },
+    {
+      "name": "Perplexing Sophistry",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If you have more aembers than your opponent, they discard a random card from their hand and you draw a card."
+        }
+      ]
+    },
+    {
+      "name": "Heist Night",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "AOA"
+      ],
+      "special": ["ALPHA"],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember for each friendly Thief creature."
+        }
+      ]
+    },
+    {
+      "name": "Routine Job",
+      "type": "ACTION",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "Steal 1 aember. Then, steal 1 aember for each copy of Routine Job in your discard pile."
+        }
+      ]
+    },
+    {
+      "name": "Treasure Map",
+      "type": "ACTION",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "special": [],
+      "effects": [
+        {
+          "appliesWhen": [
+            "PLAY"
+          ],
+          "text": "If you have not played any other cards this turn, gains 3 aembers. For the remainder of the turn, you cannot play cards."
         }
       ]
     }
   ],
   "upgrades": [
     {
-      "name": "",
+      "name": "Bonerot Venom",
       "type": "UPGRADE",
-      "aember": 0,
+      "aember": 1,
       "extension": [
-        ""
+        "AOA"
       ],
       "effects": [
         {
           "appliesWhen": [
-            ""
+            "ANY"
           ],
-          "text": ""
+          "text": "After this creature is used, deal 2 damages to it."
+        }
+      ]
+    },
+    {
+      "name": "Duskrunner",
+      "type": "UPGRADE",
+      "aember": 0,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains \"REAP: Steal 1 aember.\""
+        }
+      ]
+    },
+    {
+      "name": "Ring of Invisibility",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA", "AOA", "WC"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains elusive and skirmish."
+        }
+      ]
+    },
+    {
+      "name": "Silent Dagger",
+      "type": "UPGRADE",
+      "aember": 1,
+      "extension": [
+        "COTA"
+      ],
+      "effects": [
+        {
+          "appliesWhen": [
+            "ANY"
+          ],
+          "text": "This creature gains, \"REAP: Deal 4 damages to a flank creature.\""
         }
       ]
     }

@@ -8,6 +8,7 @@ enum class Trigger {
     OMNI,
     DESTROYED,
     BEFORE_FIGHT,
+    LEAVES_PLAY,
     ANY;
 
     companion object {
@@ -19,6 +20,7 @@ enum class Trigger {
                     REAP -> res += "/Reap"
                     FIGHT -> res += "/Fight"
                     PLAY -> res += "/Play"
+                    LEAVES_PLAY -> res += "/Leaves Play"
                     OMNI -> res += "/Omni"
                     BEFORE_FIGHT -> res += "/Before Fight"
                     DESTROYED -> res += "/Destroyed"

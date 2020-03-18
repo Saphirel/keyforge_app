@@ -50,6 +50,9 @@ enum class Traits {
     HORSEMAN,
     ANGEL,
     PRIEST,
+    ALIEN,
+    RAT,
+    SPECTER,
     PHILOSOPHER;
 
     companion object {

@@ -25,7 +25,7 @@ class DbUtils {
     companion object {
 
         fun initDbWithJsonFiles(app: AppActivity) {
-            val houseNames = arrayOf("brobnar", "dis", "logos", "untamed", "sanctum", "mars", "saurian")
+            val houseNames = arrayOf("brobnar", "dis", "logos", "untamed", "sanctum", "mars", "saurian", "shadow")
 
             pushHousesToDb(houseNames, app)
             houseNames.map { houseName -> pushHouseCardsToDb(JSonManager.loadHouseCardsFromJSon(houseName, app.resources, app.applicationContext)!!, app) }
